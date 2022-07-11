@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<xs:schema id="XSDSchema2" targetNamespace="http://tempuri.org/XSDSchema2.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XSDSchema2.xsd" xmlns:mstns="http://tempuri.org/XSDSchema2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"> 
+  <xs:element name="Document"> 
+    <xs:complexType> 
+      <xs:choice minOccurs="0" maxOccurs="unbounded"> 
+        <xs:element name="PNH102_1_C_R"> 
+          <xs:complexType> 
+            <xs:sequence> 
+              <xs:element name="YYYYMMDD" type="xs:string" />
+              <xs:element name="Team" type="xs:string" />
+              <xs:element name="ChargeEmpNm" type="xs:string" />
+              <xs:element name="Nomber" type="xs:decimal" />
+              <xs:element name="BranchNm" type="xs:string" />
+              <xs:element name="BranchManager" type="xs:string" />
+              <xs:element name="OperateYYYYMM" type="xs:string" />
+              <xs:element name="SendPaperNum" type="xs:decimal" />
+              <xs:element name="HPaperNumY" type="xs:decimal" />
+              <xs:element name="BPaperNum" type="xs:decimal" />
+              <xs:element name="EPaperNum" type="xs:decimal" />
+              <xs:element name="HValPaperY" type="xs:decimal" />
+              <xs:element name="BranchSendNm" type="xs:string" />
+              <xs:element name="ExpSum" type="xs:decimal" />
+              <xs:element name="BranchExpNum" type="xs:decimal" />
+              <xs:element name="EmpExpNum" type="xs:decimal" />
+              <xs:element name="OtherExpNum" type="xs:decimal" />
+              <xs:element name="StopPaperSum" type="xs:decimal" />
+              <xs:element name="BranchStopNum" type="xs:decimal" />
+              <xs:element name="EmpStopNum" type="xs:decimal" />
+              <xs:element name="OtherStopNum" type="xs:decimal" />
+              <xs:element name="DepositDivCd1" type="xs:decimal" />
+              <xs:element name="DepositDivCd3" type="xs:decimal" />
+              <xs:element name="PaperSale" type="xs:decimal" />
+              <xs:element name="Grade" type="xs:string" />
+              <xs:element name="PaperUnColAmt" type="xs:decimal" />
+              <xs:element name="SaleAmt" type="xs:decimal" />
+              <xs:element name="SaleAmtSum" type="xs:decimal" />
+              <xs:element name="SaleDivCd2" type="xs:decimal" />
+              <xs:element name="SaleDivCd4" type="xs:decimal" />
+              <xs:element name="SaleDivCdOth" type="xs:decimal" />
+              <xs:element name="BillPaperNum" type="xs:decimal" />
+              <xs:element name="BillPaperAmt" type="xs:decimal" />
+              <xs:element name="PaperAmt" type="xs:decimal" />
+              <xs:element name="BranchOfficeAmt" type="xs:decimal" />
+              <xs:element name="OfficeMonthAmt" type="xs:decimal" />
+              <xs:element name="ManageDivCd5" type="xs:string" />
+              <xs:element name="ManageDivCd4" type="xs:string" />
+              <xs:element name="Memo" type="xs:string" />
+            </xs:sequence> 
+          </xs:complexType> 
+        </xs:element> 
+      </xs:choice> 
+    </xs:complexType> 
+  </xs:element> 
+</xs:schema> 

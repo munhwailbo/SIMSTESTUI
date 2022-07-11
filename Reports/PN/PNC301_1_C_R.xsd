@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<xs:schema id="XSDSchema2" targetNamespace="http://tempuri.org/XSDSchema2.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XSDSchema2.xsd" xmlns:mstns="http://tempuri.org/XSDSchema2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"> 
+  <xs:element name="Document"> 
+    <xs:complexType> 
+      <xs:choice minOccurs="0" maxOccurs="unbounded"> 
+        <xs:element name="PNC301_1_C_R"> 
+          <xs:complexType> 
+            <xs:sequence> 
+              <xs:element name="ReceiptDt" type="xs:string" />
+              <xs:element name="ExpandDt" type="xs:string" />
+              <xs:element name="CompanyNm" type="xs:string" />
+              <xs:element name="SubscriberNm" type="xs:string" />
+              <xs:element name="PhoneNum1" type="xs:string" />
+              <xs:element name="Add1" type="xs:string" />
+              <xs:element name="Add2" type="xs:string" />
+              <xs:element name="FixedPaperNum" type="xs:decimal" />
+              <xs:element name="StopPaperNum" type="xs:decimal" />
+              <xs:element name="FixedStDt1" type="xs:string" />
+              <xs:element name="BranchNm" type="xs:string" />
+              <xs:element name="BizEmpNm" type="xs:string" />
+              <xs:element name="DeptNm" type="xs:string" />
+              <xs:element name="CollectionDivCd" type="xs:string" />
+              <xs:element name="StopReasonCd" type="xs:string" />
+              <xs:element name="SolicitorNotifyDt" type="xs:string" />
+              <xs:element name="NotityReceipt" type="xs:string" />
+              <xs:element name="MonitoringProcDt" type="xs:string" />
+              <xs:element name="note" type="xs:string" />
+              <xs:element name="StopProcPaperNum" type="xs:decimal" />
+              <xs:element name="ExtProcPaperNum" type="xs:decimal" />
+              <xs:element name="IngPaperNum" type="xs:decimal" />
+            </xs:sequence> 
+          </xs:complexType> 
+        </xs:element> 
+      </xs:choice> 
+    </xs:complexType> 
+  </xs:element> 
+</xs:schema> 

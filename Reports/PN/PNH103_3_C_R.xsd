@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<xs:schema id="XSDSchema2" targetNamespace="http://tempuri.org/XSDSchema2.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XSDSchema2.xsd" xmlns:mstns="http://tempuri.org/XSDSchema2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"> 
+  <xs:element name="Document"> 
+    <xs:complexType> 
+      <xs:choice minOccurs="0" maxOccurs="unbounded"> 
+        <xs:element name="PNH103_3_C_R"> 
+          <xs:complexType> 
+            <xs:sequence> 
+              <xs:element name="ChargeEmpNum" type="xs:string" />
+              <xs:element name="ChargeEmpNm" type="xs:string" />
+              <xs:element name="Orders" type="xs:string" />
+              <xs:element name="BranchCd" type="xs:string" />
+              <xs:element name="ChangeNum" type="xs:decimal" />
+              <xs:element name="BranchNm" type="xs:string" />
+              <xs:element name="MOffice3" type="xs:decimal" />
+              <xs:element name="MOffice7" type="xs:decimal" />
+              <xs:element name="MOffice32" type="xs:decimal" />
+              <xs:element name="Mabuk3" type="xs:decimal" />
+              <xs:element name="Mabuk7" type="xs:decimal" />
+              <xs:element name="Ogum3" type="xs:decimal" />
+              <xs:element name="Daejeon3" type="xs:decimal" />
+              <xs:element name="YoungNam32" type="xs:decimal" />
+              <xs:element name="HoNam32" type="xs:decimal" />
+              <xs:element name="AreaTotal" type="xs:decimal" />
+              <xs:element name="Note" type="xs:string" />
+            </xs:sequence> 
+          </xs:complexType> 
+        </xs:element> 
+      </xs:choice> 
+    </xs:complexType> 
+  </xs:element> 
+</xs:schema> 

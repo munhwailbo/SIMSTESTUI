@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<xs:schema id="XSDSchema2" targetNamespace="http://tempuri.org/XSDSchema2.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XSDSchema2.xsd" xmlns:mstns="http://tempuri.org/XSDSchema2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"> 
+  <xs:element name="Document"> 
+    <xs:complexType> 
+      <xs:choice minOccurs="0" maxOccurs="unbounded"> 
+        <xs:element name="PNF302_1_C_R"> 
+          <xs:complexType> 
+            <xs:sequence> 
+              <xs:element name="BaseYearMonths" type="xs:string" />
+              <xs:element name="YYYY" type="xs:string" />
+              <xs:element name="MM" type="xs:string" />
+              <xs:element name="DeptTeam" type="xs:string" />
+              <xs:element name="ChargeEmpNm" type="xs:string" />
+              <xs:element name="BranchCount" type="xs:decimal" />
+              <xs:element name="SnBranch" type="xs:decimal" />
+              <xs:element name="UnSnBranch" type="xs:decimal" />
+              <xs:element name="SnBranchAvg" type="xs:decimal" />
+              <xs:element name="EmpExpNum" type="xs:decimal" />
+              <xs:element name="BranchExp" type="xs:decimal" />
+              <xs:element name="StopSum" type="xs:decimal" />
+              <xs:element name="StopEmpExpNum" type="xs:decimal" />
+              <xs:element name="StopBranchExpNum" type="xs:decimal" />
+              <xs:element name="StopProcTot" type="xs:decimal" />
+              <xs:element name="StopProcAvg" type="xs:decimal" />
+              <xs:element name="ReturnProcNo" type="xs:decimal" />
+              <xs:element name="RestopProc" type="xs:decimal" />
+              <xs:element name="StopReprocNo" type="xs:decimal" />
+              <xs:element name="StopReturnTot" type="xs:decimal" />
+              <xs:element name="note" type="xs:string" />
+            </xs:sequence> 
+          </xs:complexType> 
+        </xs:element> 
+      </xs:choice> 
+    </xs:complexType> 
+  </xs:element> 
+</xs:schema> 

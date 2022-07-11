@@ -1,0 +1,43 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PNE305
+</name>
+</assembly>
+<members>
+<member name="M:ubiLease.UI.BusinessUi.PN.PNE305.ComboValueSetting(ubiLease.GridControl.grd,System.Int32,System.String,System.String)">
+	<summary>
+ 콤보 값 셋팅
+ </summary>
+	<param name="_grd">셋팅할 그리드</param>
+	<param name="row">셋팅할 행번호</param>
+	<param name="colName">세팅할 컬럼명</param>
+	<param name="key">콤보 값</param>
+	<remarks>콤보 값을 명과 함께 그리드에 표시한다.</remarks>
+</member><member name="P:My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:ubiLease.UI.BusinessUi.PN.PNE305.ExportData">
+	<summary>
+ 함수명 : ExportData 
+ 기  능 : 출력
+ 작성자 : 
+ 작성일 : 2008.09.01
+ 수정자 : 
+ 수정일 : 
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

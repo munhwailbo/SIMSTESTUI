@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<xs:schema id="XSDSchema2" targetNamespace="http://tempuri.org/XSDSchema2.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XSDSchema2.xsd" xmlns:mstns="http://tempuri.org/XSDSchema2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"> 
+  <xs:element name="Document"> 
+    <xs:complexType> 
+      <xs:choice minOccurs="0" maxOccurs="unbounded"> 
+        <xs:element name="PNF301_2_C_R"> 
+          <xs:complexType> 
+            <xs:sequence> 
+              <xs:element name="ContactDt" type="xs:string" />
+              <xs:element name="WeekNum1" type="xs:string" />
+              <xs:element name="DeptCd" type="xs:string" />
+              <xs:element name="DeptNm" type="xs:string" />
+              <xs:element name="ChargeEmpNum" type="xs:string" /> 
+              <xs:element name="ChargeEmpNm" type="xs:string" />
+              <xs:element name="ContactPaperNum" type="xs:decimal" />
+              <xs:element name="ReFixedPaperNum" type="xs:decimal" />
+              <xs:element name="FixedPaperNum" type="xs:decimal" />
+              <xs:element name="FixedAvg" type="xs:decimal" />
+              <xs:element name="OPaperNum" type="xs:decimal" />
+              <xs:element name="OAmt" type="xs:decimal" />
+              <xs:element name="CPaperNum" type="xs:decimal" />
+              <xs:element name="CAmt" type="xs:decimal" />
+              <xs:element name="HPaperNum" type="xs:decimal" />
+              <xs:element name="HAmt" type="xs:decimal" />
+              <xs:element name="APaperNum" type="xs:decimal" />
+              <xs:element name="AAmt" type="xs:decimal" />
+              <xs:element name="TotPaperNum" type="xs:decimal" />
+              <xs:element name="TotAmt" type="xs:decimal" />
+              <xs:element name="PayDeductAmt" type="xs:decimal" />
+              <xs:element name="TransferAmt" type="xs:decimal" />
+              <xs:element name="BranchTot" type="xs:decimal" />
+              <xs:element name="BranchAvg" type="xs:decimal" />
+            </xs:sequence> 
+          </xs:complexType> 
+        </xs:element> 
+      </xs:choice> 
+    </xs:complexType> 
+  </xs:element> 
+</xs:schema> 

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<xs:schema id="XSDSchema2" targetNamespace="http://tempuri.org/XSDSchema2.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XSDSchema2.xsd" xmlns:mstns="http://tempuri.org/XSDSchema2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"> 
+  <xs:element name="Document"> 
+    <xs:complexType> 
+      <xs:choice minOccurs="0" maxOccurs="unbounded"> 
+        <xs:element name="PNH201_3_C_R"> 
+          <xs:complexType> 
+            <xs:sequence> 
+              <xs:element name="YYYYMM" type="xs:string" />
+              <xs:element name="Orders" type="xs:decimal" />
+              <xs:element name="BranchNm" type="xs:string" />
+              <xs:element name="DeliveryPaperNum" type="xs:decimal" />
+              <xs:element name="ValPaperNum" type="xs:decimal" />
+              <xs:element name="ValPaperNum3" type="xs:decimal" />
+              <xs:element name="ExpandPaperNum" type="xs:decimal" />
+              <xs:element name="ExpTargetPaperNum" type="xs:decimal" />
+              <xs:element name="ExpTargetPaperNum2" type="xs:decimal" />
+              <xs:element name="ExpTargetPaperNum3" type="xs:decimal" />
+              <xs:element name="ExpTargetPaperTot" type="xs:decimal" />
+              <xs:element name="ExpReceiptPaperNum" type="xs:decimal" />
+              <xs:element name="ExpMvPaperNum" type="xs:decimal" />
+              <xs:element name="ExpEtcPaperNum" type="xs:decimal" />
+              <xs:element name="ExpGaPaperNum" type="xs:decimal" />
+              <xs:element name="ExpPaperTot" type="xs:decimal" />
+              <xs:element name="ReExpandPaperNum" type="xs:decimal" />
+              <xs:element name="ReReturnPaperNum" type="xs:decimal" />
+              <xs:element name="ReReturnPaperNum2" type="xs:decimal" />
+              <xs:element name="ReReturnPaperNum3" type="xs:decimal" />
+              <xs:element name="ReTargetPaperTot" type="xs:decimal" />
+              <xs:element name="ReMvPaperNum" type="xs:decimal" />
+              <xs:element name="ReExpEtcPaperNum" type="xs:decimal" />
+              <xs:element name="ReExpGaPaperNum" type="xs:decimal" />
+              <xs:element name="RePaperTot" type="xs:decimal" />
+              <xs:element name="VaryPaperNum" type="xs:decimal" />
+              <xs:element name="Note" type="xs:decimal" />
+            </xs:sequence> 
+          </xs:complexType> 
+        </xs:element> 
+      </xs:choice> 
+    </xs:complexType> 
+  </xs:element> 
+</xs:schema> 

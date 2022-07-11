@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://tempuri.org/XMLSchema.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:mstns="http://tempuri.org/XMLSchema.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="Document">
+		<xs:complexType>
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element name="OMAA04_C_R">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Title" type="xs:string" minOccurs="0" />
+							<xs:element name="RecordProcessMode" type="xs:int" minOccurs="0" />
+							<xs:element name="ReceiptDate" type="xs:string" minOccurs="0" />
+							<xs:element name="Gubn" type="xs:string" minOccurs="0" />
+							<xs:element name="SystemDivision" type="xs:string" minOccurs="0" />
+							<xs:element name="EmployeeNumber" type="xs:string" minOccurs="0" />
+							<xs:element name="ProgramID" type="xs:string" minOccurs="0" />
+                                                        <xs:element name="Underwriter" type="xs:string" minOccurs="0" />
+							<xs:element name="Worker" type="xs:string" minOccurs="0" />
+							<xs:element name="WorkDivision" type="xs:string" minOccurs="0" />
+							<xs:element name="ManagementProgramDate" type="xs:string" minOccurs="0" />
+							<xs:element name="ManagementDate" type="xs:string" minOccurs="0" />
+							<xs:element name="Subject" type="xs:string" minOccurs="0" />																															
+							<xs:element name="DemandMatters_2" type="xs:string" minOccurs="0" />
+							<xs:element name="ManagementInternalUse" type="xs:string" minOccurs="0" />
+							<xs:element name="OccurrenceCause" type="xs:string" minOccurs="0" />
+							<xs:element name="HCodeName" type="xs:string" minOccurs="0" />    
+							<xs:element name="InFirmTelephoneNumber" type="xs:string" minOccurs="0" />    
+							<xs:element name="pageNum" type="xs:int" minOccurs="0" />
+							<xs:element name="temp" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

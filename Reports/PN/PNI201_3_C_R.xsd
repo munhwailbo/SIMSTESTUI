@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<xs:schema id="XSDSchema2" targetNamespace="http://tempuri.org/XSDSchema2.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XSDSchema2.xsd" xmlns:mstns="http://tempuri.org/XSDSchema2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"> 
+  <xs:element name="Document"> 
+    <xs:complexType> 
+      <xs:choice minOccurs="0" maxOccurs="unbounded"> 
+        <xs:element name="PNI201_3_C_R"> 
+          <xs:complexType> 
+            <xs:sequence> 
+              <xs:element name="Oders" type="xs:decimal" />
+              <xs:element name="YYYYMM" type="xs:string" />
+              <xs:element name="YYYY" type="xs:string" />
+              <xs:element name="MM" type="xs:string" />
+              <xs:element name="EmployeeExpNum" type="xs:string" />
+              <xs:element name="DivExp" type="xs:string" />
+              <xs:element name="MonPa" type="xs:decimal" />
+              <xs:element name="PaperNum" type="xs:decimal" />
+              <xs:element name="Amt" type="xs:decimal" />
+              <xs:element name="DeductAmt" type="xs:decimal" />
+              <xs:element name="TransferAmt" type="xs:decimal" />
+              <xs:element name="Memo" type="xs:string" />
+              <xs:element name="BillDivCd" type="xs:string" /> 
+            </xs:sequence> 
+          </xs:complexType> 
+        </xs:element> 
+      </xs:choice> 
+    </xs:complexType> 
+  </xs:element> 
+</xs:schema> 

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="XSDSchema2" targetNamespace="http://tempuri.org/XSDSchema2.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XSDSchema2.xsd" xmlns:mstns="http://tempuri.org/XSDSchema2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="Document">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PNB301_1_C_R">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BranchNm" type="xs:string" />
+              <xs:element name="YYYY" type="xs:string" />
+              <xs:element name="MM" type="xs:string" />
+              <xs:element name="DD" type="xs:string" />
+              <xs:element name="BranchCd" type="xs:string" />
+              <xs:element name="ContractDt" type="xs:string" />
+              <xs:element name="A1PhotoFilePath" type="xs:base64Binary" />
+              <xs:element name="A1SocialName" type="xs:string" />
+              <xs:element name="A1SocialNum" type="xs:string" />
+              <xs:element name="A1ChargeEmpNumNm" type="xs:string" />
+              <xs:element name="A1PhoneNum1" type="xs:string" />
+              <xs:element name="A1MobileNum" type="xs:string" />
+              <xs:element name="A1PhoneNum2" type="xs:string" />
+              <xs:element name="A1AccountNum" type="xs:string" />
+              <xs:element name="A1Addr1" type="xs:string" />
+              <xs:element name="A1AcademyCode" type="xs:string" />
+              <xs:element name="A1DepositDivCd1" type="xs:decimal" />
+              <xs:element name="A1DepositDivCd2" type="xs:decimal" />
+              <xs:element name="A1DepositSum" type="xs:decimal" />
+              <xs:element name="A1BizArea" type="xs:string" />
+              <xs:element name="A1MkTargetGroup" type="xs:string" />
+              <xs:element name="A1Career" type="xs:string" />
+              <xs:element name="A1ManageDivCd3" type="xs:string" />
+              <xs:element name="A1ManageDivCd4" type="xs:string" />
+              <xs:element name="A1Tajirelation" type="xs:string" />
+              <xs:element name="A1BusinessNum" type="xs:string" />
+              <xs:element name="A1OperatorRelation" type="xs:string" />
+              <xs:element name="A1OpenYYYY" type="xs:string" />
+              <xs:element name="A1OpenMM" type="xs:string" />
+              <xs:element name="A1OpenDD" type="xs:string" />
+              <xs:element name="A1EndYYYY" type="xs:string" />
+              <xs:element name="A1EndMM" type="xs:string" />
+              <xs:element name="A1EndDD" type="xs:string" />
+              <xs:element name="A1PrintPlateCd" type="xs:string" />
+              <xs:element name="A1ManageDivCd5" type="xs:string" />
+              <xs:element name="A1Addr2" type="xs:string" />
+              <xs:element name="A1Career2" type="xs:string" />
+              <xs:element name="A1DeliveryFormation" type="xs:string" />
+              <xs:element name="A1Solicitor" type="xs:string" />
+              <xs:element name="A1SpecialSubject" type="xs:string" />
+              <xs:element name="A2OperatorName" type="xs:string" />
+              <xs:element name="A2OperatorSocialNum" type="xs:string" />
+              <xs:element name="A2ContractStRelation" type="xs:string" />
+              <xs:element name="A2OperatorPhone1" type="xs:string" />
+              <xs:element name="A2OperatorMobile" type="xs:string" />
+              <xs:element name="A2OperatorPhone2" type="xs:string" />
+              <xs:element name="A2OperatorAddr1" type="xs:string" />
+              <xs:element name="A2OperatorAddr2" type="xs:string" />
+              <xs:element name="A2OperatorAcademyCode" type="xs:string" />
+              <xs:element name="A2OperatorCareer" type="xs:string" />
+              <xs:element name="A2OperatorSpecialSubject" type="xs:string" />
+              <xs:element name="A3GuarantorNm" type="xs:string" />
+              <xs:element name="A3GuarantorSocialNum" type="xs:string" />
+              <xs:element name="A3GuarantorAddr" type="xs:string" />
+              <xs:element name="A3GuarantorPropertyTaxAm" type="xs:decimal" />
+              <xs:element name="A3GuarantorPhone" type="xs:string" />
+              <xs:element name="A4Addr" type="xs:string" />
+              <xs:element name="A4RentDivCd1" type="xs:decimal" />
+              <xs:element name="A4RentDivCd3" type="xs:decimal" />
+              <xs:element name="A4ContractStDt" type="xs:string" />
+              <xs:element name="A4ContractEdDt" type="xs:string" />
+              <xs:element name="A4SecurityLimitedItem" type="xs:string" />
+              <xs:element name="A4OwnerAddr" type="xs:string" />
+              <xs:element name="A4OwnerPhone" type="xs:string" />
+              <xs:element name="A4OwnerAccountNum" type="xs:string" />
+              <xs:element name="A4OwnerSpecialSubject" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<xs:schema id="XSDSchema2" targetNamespace="http://tempuri.org/XSDSchema2.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XSDSchema2.xsd" xmlns:mstns="http://tempuri.org/XSDSchema2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"> 
+  <xs:element name="Document"> 
+    <xs:complexType> 
+      <xs:choice minOccurs="0" maxOccurs="unbounded"> 
+        <xs:element name="PNH202_1_C_R"> 
+          <xs:complexType> 
+            <xs:sequence> 
+              <xs:element name="Number" type="xs:decimal" />
+              <xs:element name="YYYYMM" type="xs:string" />
+              <xs:element name="BranchCd" type="xs:string" />
+              <xs:element name="BranchNm" type="xs:string" />
+              <xs:element name="ChargeEmpNum" type="xs:string" />
+              <xs:element name="ChargeEmpNm" type="xs:string" />
+              <xs:element name="AComPanyCdNm" type="xs:decimal" />
+              <xs:element name="APaperNumAmt" type="xs:decimal" />
+              <xs:element name="APaperNum" type="xs:decimal" />
+              <xs:element name="APaperAmt" type="xs:decimal" />
+              <xs:element name="CPaperNumAmt" type="xs:decimal" />
+              <xs:element name="CPaperNum" type="xs:decimal" />
+              <xs:element name="CPaperAmt" type="xs:decimal" />
+              <xs:element name="SumPaperNum" type="xs:decimal" />
+              <xs:element name="SumAmt" type="xs:decimal" />
+              <xs:element name="PaperDeductAmt" type="xs:decimal" />
+              <xs:element name="EctDeductAmt" type="xs:decimal" />
+              <xs:element name="BankCdNm" type="xs:string" />
+              <xs:element name="TransferAmt" type="xs:decimal" />
+              <xs:element name="AccountNum" type="xs:string" />
+              <xs:element name="DepositorNm" type="xs:string" />
+            </xs:sequence> 
+          </xs:complexType> 
+        </xs:element> 
+      </xs:choice> 
+    </xs:complexType> 
+  </xs:element> 
+</xs:schema> 

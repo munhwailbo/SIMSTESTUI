@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<xs:schema id="XSDSchema2" targetNamespace="http://tempuri.org/XSDSchema2.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XSDSchema2.xsd" xmlns:mstns="http://tempuri.org/XSDSchema2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"> 
+  <xs:element name="Document"> 
+    <xs:complexType> 
+      <xs:choice minOccurs="0" maxOccurs="unbounded"> 
+        <xs:element name="PNE303_3_C_R"> 
+          <xs:complexType> 
+            <xs:sequence> 
+              <xs:element name="RowNumber" type="xs:decimal" />
+              <xs:element name="ContactDt" type="xs:string" />
+              <xs:element name="ContactDt4" type="xs:string" />
+              <xs:element name="CompanyNm" type="xs:string" />
+              <xs:element name="SubscriberNm" type="xs:string" />
+              <xs:element name="PhoneNum1" type="xs:string" />
+              <xs:element name="PhoneNum2" type="xs:string" />
+              <xs:element name="MobileNum" type="xs:string" />
+              <xs:element name="OldAddr1" type="xs:string" />
+              <xs:element name="OldAddr2" type="xs:string" />
+              <xs:element name="TargetPaperTotNum" type="xs:decimal" />
+              <xs:element name="NewPapNum" type="xs:decimal" />
+              <xs:element name="ReExpPapNum1" type="xs:decimal" />
+              <xs:element name="DeliveryBranchNm" type="xs:string" />
+              <xs:element name="EmployeeNm" type="xs:string" />
+              <xs:element name="CollectionDivCd" type="xs:string" />
+              <xs:element name="FixedStDt" type="xs:string" />
+              <xs:element name="note" type="xs:string" />
+            </xs:sequence> 
+          </xs:complexType> 
+        </xs:element> 
+      </xs:choice> 
+    </xs:complexType> 
+  </xs:element> 
+</xs:schema> 

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<xs:schema id="XSDSchema2" targetNamespace="http://tempuri.org/XSDSchema2.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XSDSchema2.xsd" xmlns:mstns="http://tempuri.org/XSDSchema2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"> 
+  <xs:element name="Document"> 
+    <xs:complexType> 
+      <xs:choice minOccurs="0" maxOccurs="unbounded"> 
+        <xs:element name="PNF101_2_C_R"> 
+          <xs:complexType> 
+            <xs:sequence> 
+              <xs:element name="BaseYear" type="xs:string" />
+              <xs:element name="TeamNm" type="xs:string" />
+              <xs:element name="TeamNm2" type="xs:string" />
+              <xs:element name="DeptCd" type="xs:string" />
+              <xs:element name="ChargeEmpNum" type="xs:string" />
+              <xs:element name="ChargeEmpNm" type="xs:string" />
+              <xs:element name="BranchNumber" type="xs:decimal" />
+              <xs:element name="YYYYBeforeNum" type="xs:decimal" />
+              <xs:element name="PaperNum_Tot" type="xs:decimal" />
+              <xs:element name="ContactDtBef" type="xs:string" />
+              <xs:element name="PaperNum_01" type="xs:decimal" />
+              <xs:element name="PaperNum_02" type="xs:decimal" />
+              <xs:element name="PaperNum_03" type="xs:decimal" />
+              <xs:element name="Qut1PaperTot" type="xs:decimal" />
+              <xs:element name="PaperNum_04" type="xs:decimal" />
+              <xs:element name="PaperNum_05" type="xs:decimal" />
+              <xs:element name="PaperNum_06" type="xs:decimal" />
+              <xs:element name="Qut2PaperTot" type="xs:decimal" />
+              <xs:element name="PaperNum_07" type="xs:decimal" />
+              <xs:element name="PaperNum_08" type="xs:decimal" />
+              <xs:element name="PaperNum_09" type="xs:decimal" />
+              <xs:element name="Qut3PaperTot" type="xs:decimal" />
+              <xs:element name="PaperNum_10" type="xs:decimal" />
+              <xs:element name="PaperNum_11" type="xs:decimal" />
+              <xs:element name="PaperNum_12" type="xs:decimal" />
+              <xs:element name="Qut4PaperTot" type="xs:decimal" />
+            </xs:sequence> 
+          </xs:complexType> 
+        </xs:element> 
+      </xs:choice> 
+    </xs:complexType> 
+  </xs:element> 
+</xs:schema> 

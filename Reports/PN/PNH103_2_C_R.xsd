@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<xs:schema id="XSDSchema2" targetNamespace="http://tempuri.org/XSDSchema2.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XSDSchema2.xsd" xmlns:mstns="http://tempuri.org/XSDSchema2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"> 
+  <xs:element name="Document"> 
+    <xs:complexType> 
+      <xs:choice minOccurs="0" maxOccurs="unbounded"> 
+        <xs:element name="PNH103_2_C_R"> 
+          <xs:complexType> 
+            <xs:sequence> 
+              <xs:element name="PrintMach" type="xs:string" />
+              <xs:element name="Orders" type="xs:decimal" /> 
+              <xs:element name="YYYYMM" type="xs:string" />
+              <xs:element name="YMD" type="xs:string" /> 
+              <xs:element name="PrintPlateCd" type="xs:string" />
+              <xs:element name="SpPan" type="xs:decimal" />
+              <xs:element name="gapan" type="xs:decimal" />
+              <xs:element name="Bonsa3PanSum" type="xs:decimal" />
+              <xs:element name="Bonsa3Pan" type="xs:decimal" />
+              <xs:element name="Others" type="xs:decimal" />
+             
+              <xs:element name="MOffice7" type="xs:decimal" />
+             
+             
+              <xs:element name="YoungNam32" type="xs:decimal" />
+              <xs:element name="HoNam32" type="xs:decimal" />
+              <xs:element name="AreaTotal" type="xs:decimal" />
+              <xs:element name="UpDownCnt" type="xs:decimal" />
+              <xs:element name="PrintNum" type="xs:decimal" />
+              <xs:element name="weekdate" type="xs:decimal" />
+            </xs:sequence> 
+          </xs:complexType> 
+        </xs:element> 
+      </xs:choice> 
+    </xs:complexType> 
+  </xs:element> 
+</xs:schema>
+
+
+
+
+
+
+
+
+
+

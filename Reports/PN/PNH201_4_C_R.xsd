@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<xs:schema id="XSDSchema2" targetNamespace="http://tempuri.org/XSDSchema2.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XSDSchema2.xsd" xmlns:mstns="http://tempuri.org/XSDSchema2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"> 
+  <xs:element name="Document"> 
+    <xs:complexType> 
+      <xs:choice minOccurs="0" maxOccurs="unbounded"> 
+        <xs:element name="PNH201_4_C_R"> 
+          <xs:complexType> 
+            <xs:sequence> 
+              <xs:element name="RowNumber" type="xs:decimal" />
+              <xs:element name="YYYYMMDD" type="xs:string" />
+              <xs:element name="YMD" type="xs:string" />
+              <xs:element name="BranchCd" type="xs:string" />
+              <xs:element name="BranchNm" type="xs:string" />
+              <xs:element name="PrintPlateCd" type="xs:string" />
+              <xs:element name="CurValPaperNum1" type="xs:decimal" />
+              <xs:element name="CurValPaperNumYT" type="xs:decimal" />
+              <xs:element name="CurNoValPaperNumMT" type="xs:decimal" />
+              <xs:element name="CurNoValPaperNumT" type="xs:decimal" />
+              <xs:element name="VaryValPaperNum1" type="xs:decimal" />
+              <xs:element name="YdPaperNumYT" type="xs:decimal" />
+              <xs:element name="YdPaperNumMT" type="xs:decimal" />
+              <xs:element name="VaryNoValPaperNumT" type="xs:decimal" />
+              <xs:element name="FixedValPaperNum1" type="xs:decimal" />
+              <xs:element name="FixedValPaperNumYT" type="xs:decimal" />
+              <xs:element name="FixedNoValPaperNumMT" type="xs:decimal" />
+              <xs:element name="FixedNoValPaperNumT" type="xs:decimal" />
+              <xs:element name="FixedPrintPaperNum" type="xs:decimal" />
+              <xs:element name="Note" type="xs:string" />
+            </xs:sequence> 
+          </xs:complexType> 
+        </xs:element> 
+      </xs:choice> 
+    </xs:complexType> 
+  </xs:element> 
+</xs:schema> 

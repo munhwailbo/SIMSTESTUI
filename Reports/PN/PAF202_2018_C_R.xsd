@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PAF202_C_R" targetNamespace="http://tempuri.org/PAF202_C_R.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/PAF202_C_R.xsd" xmlns:mstns="http://tempuri.org/PAJ003_2010_C_R.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="Document">
+        <xs:complexType>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element name="PAF202_C_R">
+                    <xs:complexType>
+                        <xs:sequence>
+							<xs:element name="EmployeeNumber" type="xs:string" />
+
+							<xs:element name="Q01" type="xs:string" />
+							<xs:element name="Q02" type="xs:string" />
+							<xs:element name="Q03" type="xs:string" />
+							<xs:element name="Q04" type="xs:string" />
+							<xs:element name="Q05" type="xs:string" />
+							<xs:element name="Q06" type="xs:string" />
+							<xs:element name="Q07" type="xs:string" />
+							<xs:element name="Q08" type="xs:string" />
+							<xs:element name="Q09" type="xs:string" />
+							<xs:element name="Q10" type="xs:string" />
+
+							<xs:element name="R01" type="xs:string" />
+							<xs:element name="R02" type="xs:string" />
+							<xs:element name="R03" type="xs:string" />
+							<xs:element name="R04" type="xs:string" />
+							<xs:element name="R05" type="xs:string" />
+							<xs:element name="R06" type="xs:string" />
+							<xs:element name="R07" type="xs:string" />
+							<xs:element name="R08" type="xs:string" />
+							<xs:element name="R09_01" type="xs:string" />
+							<xs:element name="R09_02" type="xs:string" />
+							<xs:element name="R09_03" type="xs:string" />
+							<xs:element name="R10_01" type="xs:string" />
+							<xs:element name="R10_02" type="xs:string" />
+							<xs:element name="R10_03" type="xs:string" />
+							<xs:element name="R11_01" type="xs:string" />
+							<xs:element name="R11_02" type="xs:string" />
+							<xs:element name="R11_03" type="xs:string" />
+
+							<xs:element name="R12_01" type="xs:string" />
+							<xs:element name="R12_02" type="xs:string" />
+							<xs:element name="R12_03" type="xs:string" />
+
+							<xs:element name="R13_01" type="xs:decimal" />
+							<xs:element name="R13_02" type="xs:decimal" />
+							<xs:element name="R13_03" type="xs:decimal" />
+							<xs:element name="R13_04" type="xs:decimal" />
+							<xs:element name="R13_05" type="xs:decimal" />
+							<xs:element name="R14_01" type="xs:decimal" />
+							<xs:element name="R14_02" type="xs:decimal" />
+							<xs:element name="R14_03" type="xs:decimal" />
+							<xs:element name="R14_04" type="xs:decimal" />
+							<xs:element name="R14_05" type="xs:decimal" />
+							<xs:element name="R15_01" type="xs:decimal" />
+							<xs:element name="R15_02" type="xs:decimal" />
+							<xs:element name="R15_03" type="xs:decimal" />
+							<xs:element name="R15_04" type="xs:decimal" />
+							<xs:element name="R15_05" type="xs:decimal" />
+							<xs:element name="R15_1" type="xs:decimal" />
+							<xs:element name="R15_2" type="xs:decimal" />
+							<xs:element name="R15_3" type="xs:decimal" />
+							<xs:element name="R16_01" type="xs:decimal" />
+							<xs:element name="R16_02" type="xs:decimal" />
+							<xs:element name="R16_03" type="xs:decimal" />
+							<xs:element name="R16_04" type="xs:decimal" />
+							<xs:element name="R16_05" type="xs:decimal" />
+							<xs:element name="R18_01" type="xs:decimal" />
+							<xs:element name="R18_02" type="xs:decimal" />
+							<xs:element name="R18_03" type="xs:decimal" />
+							<xs:element name="R18_04" type="xs:decimal" />
+							<xs:element name="R18_05" type="xs:decimal" />
+							<xs:element name="R18_1_01" type="xs:decimal" />
+							<xs:element name="R18_1_02" type="xs:decimal" />
+							<xs:element name="R18_1_03" type="xs:decimal" />
+							<xs:element name="R18_1_04" type="xs:decimal" />
+							<xs:element name="R18_1_05" type="xs:decimal" />
+							<xs:element name="R18_2_01" type="xs:decimal" />
+							<xs:element name="R18_2_02" type="xs:decimal" />
+							<xs:element name="R18_2_03" type="xs:decimal" />
+							<xs:element name="R18_2_04" type="xs:decimal" />
+							<xs:element name="R18_2_05" type="xs:decimal" />
+							<xs:element name="R18_4_01" type="xs:decimal" />
+							<xs:element name="R18_4_02" type="xs:decimal" />
+							<xs:element name="R18_4_03" type="xs:decimal" />
+							<xs:element name="R18_4_04" type="xs:decimal" />
+							<xs:element name="R18_4_05" type="xs:decimal" />
+							<xs:element name="R18_5_01" type="xs:decimal" />
+							<xs:element name="R18_5_02" type="xs:decimal" />
+							<xs:element name="R18_5_03" type="xs:decimal" />
+							<xs:element name="R18_5_04" type="xs:decimal" />
+							<xs:element name="R18_5_05" type="xs:decimal" />
+
+							<xs:element name="R19_1_01" type="xs:decimal" />
+							<xs:element name="R19_1_02" type="xs:decimal" />
+							<xs:element name="R19_1_03" type="xs:decimal" />
+							<xs:element name="R19_1_04" type="xs:decimal" />
+							<xs:element name="R19_1_05" type="xs:decimal" />
+							<xs:element name="R19_2_01" type="xs:decimal" />
+							<xs:element name="R19_2_02" type="xs:decimal" />
+							<xs:element name="R19_2_03" type="xs:decimal" />
+							<xs:element name="R19_2_04" type="xs:decimal" />
+							<xs:element name="R19_2_05" type="xs:decimal" />
+							<xs:element name="R19_3_01" type="xs:decimal" />
+							<xs:element name="R19_3_02" type="xs:decimal" />
+							<xs:element name="R19_3_03" type="xs:decimal" />
+							<xs:element name="R19_3_04" type="xs:decimal" />
+							<xs:element name="R19_3_05" type="xs:decimal" />
+							<xs:element name="R19_4_01" type="xs:decimal" />
+							<xs:element name="R19_4_02" type="xs:decimal" />
+							<xs:element name="R19_4_03" type="xs:decimal" />
+							<xs:element name="R19_4_04" type="xs:decimal" />
+							<xs:element name="R19_4_05" type="xs:decimal" />
+
+							<xs:element name="R20_01" type="xs:decimal" />
+							<xs:element name="R20_02" type="xs:decimal" />
+							<xs:element name="R20_03" type="xs:decimal" />
+							<xs:element name="R20_04" type="xs:decimal" />
+							<xs:element name="R20_05" type="xs:decimal" />
+
+							<xs:element name="R21_01" type="xs:decimal" />
+							<xs:element name="R21_02" type="xs:decimal" />
+							<xs:element name="R21_03" type="xs:decimal" />
+							<xs:element name="R21_04" type="xs:decimal" />
+							<xs:element name="R21_05" type="xs:decimal" />
+
+
+							<xs:element name="R21" type="xs:decimal" />
+							<xs:element name="R22" type="xs:decimal" />
+							<xs:element name="R23" type="xs:decimal" />
+							<xs:element name="R24" type="xs:decimal" />
+							<xs:element name="R25" type="xs:decimal" />
+							<xs:element name="R26_01" type="xs:decimal" />
+							<xs:element name="R26_02" type="xs:decimal" />
+							<xs:element name="R27_01" type="xs:decimal" />
+							<xs:element name="R27_02" type="xs:decimal" />
+							<xs:element name="R28_01" type="xs:decimal" />
+							<xs:element name="R28_02" type="xs:decimal" />
+							<xs:element name="R29" type="xs:decimal" />
+							<xs:element name="R30" type="xs:decimal" />
+							<xs:element name="R31_1" type="xs:decimal" />
+							<xs:element name="R31_2" type="xs:decimal" />
+							<xs:element name="R32_1_1" type="xs:decimal" />
+							<xs:element name="R32_1_2" type="xs:decimal" />
+							<xs:element name="R32_2_1" type="xs:decimal" />
+							<xs:element name="R32_2_2" type="xs:decimal" />
+							<xs:element name="R32_3_1" type="xs:decimal" />
+							<xs:element name="R32_3_2" type="xs:decimal" />
+							<xs:element name="R32_4_1" type="xs:decimal" />
+							<xs:element name="R32_4_2" type="xs:decimal" />
+							<xs:element name="R33_1_1" type="xs:decimal" />
+							<xs:element name="R33_1_2" type="xs:decimal" />
+							<xs:element name="R33_2_1" type="xs:decimal" />
+							<xs:element name="R33_2_2" type="xs:decimal" />
+							<xs:element name="R34_1_01" type="xs:decimal" />
+							<xs:element name="R34_1_02" type="xs:decimal" />
+							<xs:element name="R34_2_01" type="xs:decimal" />
+							<xs:element name="R34_2_02" type="xs:decimal" />
+							<xs:element name="R34_2_03" type="xs:decimal" />
+							<xs:element name="R34_2_04" type="xs:decimal" />
+							<xs:element name="R34_2_05" type="xs:decimal" />
+							<xs:element name="R34_2_06" type="xs:decimal" />
+							<xs:element name="R34_2_07" type="xs:decimal" />
+							<xs:element name="R34_2_08" type="xs:decimal" />
+							<xs:element name="R34_2_09" type="xs:decimal" />
+							<xs:element name="R35" type="xs:decimal" />
+							<xs:element name="R36" type="xs:decimal" />
+							<xs:element name="R37" type="xs:decimal" />
+							<xs:element name="R38" type="xs:decimal" />
+							<xs:element name="R39" type="xs:decimal" />
+							<xs:element name="R40_1" type="xs:decimal" />
+							<xs:element name="R40_2" type="xs:decimal" />
+							<xs:element name="R40_3" type="xs:decimal" />
+							<xs:element name="R41" type="xs:decimal" />
+							<xs:element name="R42" type="xs:decimal" />
+							<xs:element name="R43" type="xs:decimal" />
+							<xs:element name="R45" type="xs:decimal" />
+							<xs:element name="R47" type="xs:decimal" />
+							<xs:element name="R48" type="xs:decimal" />
+							<xs:element name="R49" type="xs:decimal" />
+							<xs:element name="R50" type="xs:decimal" />
+							<xs:element name="R51" type="xs:decimal" />
+							<xs:element name="R52" type="xs:decimal" />
+							<xs:element name="R53" type="xs:decimal" />
+							<xs:element name="R54" type="xs:decimal" />
+							<xs:element name="R55" type="xs:decimal" />
+							<xs:element name="R56" type="xs:decimal" />
+							<xs:element name="R57" type="xs:decimal" />
+							
+							<xs:element name="R58_1_1" type="xs:decimal" />
+							<xs:element name="R58_1_2" type="xs:decimal" />
+							<xs:element name="R58_3_1" type="xs:decimal" />
+							<xs:element name="R58_3_2" type="xs:decimal" />
+
+							<xs:element name="R59_1" type="xs:decimal" />
+							<xs:element name="R59_2" type="xs:decimal" />
+							<xs:element name="R60_1" type="xs:decimal" />
+							<xs:element name="R60_2" type="xs:decimal" />
+							<xs:element name="R61_1" type="xs:decimal" />
+							<xs:element name="R61_2" type="xs:decimal" />
+							<xs:element name="R62_1" type="xs:decimal" />
+							<xs:element name="R62_2" type="xs:decimal" />
+
+							<xs:element name="R62_3" type="xs:decimal" />
+							<xs:element name="R62_4" type="xs:decimal" />
+
+							<xs:element name="R63_1" type="xs:decimal" />
+							<xs:element name="R63_2" type="xs:decimal" />
+							<xs:element name="R64_1" type="xs:decimal" />
+							<xs:element name="R64_2" type="xs:decimal" />
+							<xs:element name="R65_1_01_a" type="xs:decimal" />
+							<xs:element name="R65_1_01_b" type="xs:decimal" />
+							<xs:element name="R65_1_02_a" type="xs:decimal" />
+							<xs:element name="R65_1_02_b" type="xs:decimal" />
+							<xs:element name="R65_2_01" type="xs:decimal" />
+							<xs:element name="R65_2_02" type="xs:decimal" />
+							<xs:element name="R65_3_01" type="xs:decimal" />
+							<xs:element name="R65_3_02" type="xs:decimal" />
+							<xs:element name="R65_4_01" type="xs:decimal" />
+							<xs:element name="R65_4_02" type="xs:decimal" />
+							<xs:element name="R65_5_01" type="xs:decimal" />
+							<xs:element name="R65_5_02" type="xs:decimal" />
+
+							<xs:element name="R66" type="xs:decimal" />
+							<xs:element name="R67" type="xs:decimal" />
+							<xs:element name="R68" type="xs:decimal" />
+							<xs:element name="R69" type="xs:decimal" />
+							<xs:element name="R70" type="xs:decimal" />
+							<xs:element name="R71_01" type="xs:decimal" />
+							<xs:element name="R71_02" type="xs:decimal" />
+							<xs:element name="R72" type="xs:decimal" />
+							<xs:element name="R73" type="xs:decimal" />
+							<xs:element name="R74_01" type="xs:decimal" />
+							<xs:element name="R74_02" type="xs:decimal" />
+							<xs:element name="R74_03" type="xs:decimal" />
+							<xs:element name="R75_01" type="xs:decimal" />
+							<xs:element name="R75_02" type="xs:decimal" />
+							<xs:element name="R75_03" type="xs:decimal" />
+							<xs:element name="R76_01" type="xs:decimal" />
+							<xs:element name="R76_02" type="xs:decimal" />
+							<xs:element name="R76_03" type="xs:decimal" />
+							<xs:element name="R77_01" type="xs:decimal" />
+							<xs:element name="R77_02" type="xs:decimal" />
+							<xs:element name="R77_03" type="xs:decimal" />
+							<xs:element name="R78_01" type="xs:decimal" />
+							<xs:element name="R78_02" type="xs:decimal" />
+							<xs:element name="R78_03" type="xs:decimal" />
+							<xs:element name="R79_01" type="xs:decimal" />
+							<xs:element name="R79_02" type="xs:decimal" />
+							<xs:element name="R79_03" type="xs:decimal" />
+							<xs:element name="R80_01" type="xs:decimal" />
+							<xs:element name="R80_02" type="xs:decimal" />
+							<xs:element name="R80_03" type="xs:decimal" />
+
+							<xs:element name="S00" type="xs:string" />
+							<xs:element name="S01" type="xs:decimal" />
+							<xs:element name="S02" type="xs:decimal" />
+							<xs:element name="S03" type="xs:decimal" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

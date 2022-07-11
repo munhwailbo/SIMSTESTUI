@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<xs:schema id="XSDSchema2" targetNamespace="http://tempuri.org/XSDSchema2.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XSDSchema2.xsd" xmlns:mstns="http://tempuri.org/XSDSchema2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"> 
+  <xs:element name="Document"> 
+    <xs:complexType> 
+      <xs:choice minOccurs="0" maxOccurs="unbounded"> 
+        <xs:element name="PNB302_C_R"> 
+          <xs:complexType> 
+            <xs:sequence> 
+              <xs:element name="NumOrd" type="xs:decimal" />
+              <xs:element name="BranchNm" type="xs:string" />
+              <xs:element name="PayYYYYMM" type="xs:string" />
+              <xs:element name="PayYYYY" type="xs:string" />
+              <xs:element name="PayMM" type="xs:string" />
+              <xs:element name="RentAmt" type="xs:decimal" />
+              <xs:element name="VATAmt" type="xs:decimal" />
+              <xs:element name="SumAmt" type="xs:decimal" />
+              <xs:element name="BankCd" type="xs:string" />
+              <xs:element name="BankNm" type="xs:string" />
+              <xs:element name="AccountNum" type="xs:string" />
+              <xs:element name="DepositorNm" type="xs:string" />
+              <xs:element name="SortOrders" type="xs:string" />
+              <xs:element name="Note" type="xs:string" />
+            </xs:sequence> 
+          </xs:complexType> 
+        </xs:element> 
+      </xs:choice> 
+    </xs:complexType> 
+  </xs:element> 
+</xs:schema> 

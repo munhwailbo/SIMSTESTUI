@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PNB104
+</name>
+</assembly>
+<members>
+<member name="P:My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:ubiLease.UI.BusinessUi.PN.PNB104.popSystemID_ButtonClick">
+	<summary>
+ 함수명 : popSystemID
+ 기  능 : 팝업 Where절 추가 
+ 작성자 : 황인중
+ 작성일 : 2007-10-08
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

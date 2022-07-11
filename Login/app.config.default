@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <!-- *************** assemby 로드시 에러시 추가, 정책 변경 *************** -->
+  <runtime>
+    <NetFx40_LegacySecurityPolicy enabled="true"/>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="System.Web.Services" publicKeyToken="B03F5F7F11D50A3A" culture="neutral"/>
+        <bindingRedirect oldVersion="0.0.0.0-4.0.0.0" newVersion="4.0.0.0"/>
+      </dependentAssembly>
+    </assemblyBinding>
+    <loadFromRemoteSources enabled="true"/>
+  </runtime>
+  <startup useLegacyV2RuntimeActivationPolicy="true">
+
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2"/>
+  </startup>
+
+  <appSettings>
+
+    <!-- http://106.241.11.46:8004/Service.asmx -->
+    <!-- http://simsapp.munhwa.com/DataCaller/Service.asmx -->
+
+    <add key="AppRuntimeMode" value="HTTP"/>
+    <add key="AppRootName" value="/SIMS_DLL_2"/>
+    <!-- FWSIMS20_DLL2   SIMS_DLL_2 -->
+    <add key="DLLServer" value="106.241.11.46"/>
+    <!-- localhost   203.240.175.180t  106.241.11.46    SIMSapp.munhwa.com r -->
+    <add key="DLLServerPort" value="80"/>
+    <add key="DLLPath" value="DLL/"/>
+    <add key="DBAccessType" value="Direct"/>
+    <!-- WCF   WS  Direct    -->
+    <add key="SystemDB" value="sdb"/>
+
+
+    <!-- SIMS FW 2.0 테스트 서버 -->
+    <!-- <add key="sdb" value="data source=106.241.11.46;initial catalog=sysdb;persist security info=True;user id=sa;password=ansghkdlfqh88);"/> -->
+    <add key="sdb2" value="data source=SIMSz.munhwa.com;initial catalog=sysdb;persist security info=True;user id=sa;password=dbqlxpawm;"/>
+    <add key="PN" value="data source=SIMSz.munhwa.com;initial catalog=sims;persist security info=True;user id=sa;password=dbqlxpawm;"/>
+    <add key="CM" value="data source=SIMSz.munhwa.com;initial catalog=sims;persist security info=True;user id=sa;password=dbqlxpawm;"/>
+    <add key="PR" value="data source=SIMSz.munhwa.com;initial catalog=sims;persist security info=True;user id=sa;password=dbqlxpawm;"/>
+    <add key="PA" value="data source=SIMSz.munhwa.com;initial catalog=sims;persist security info=True;user id=sa;password=dbqlxpawm;"/>
+    <add key="SM" value="data source=SIMSz.munhwa.com;initial catalog=sysdb;persist security info=True;user id=sa;password=dbqlxpawm;"/>
+    <add key="MA" value="data source=SIMSz.munhwa.com;initial catalog=sims;persist security info=True;user id=sa;password=dbqlxpawm;"/>
+    <add key="HR" value="data source=SIMSz.munhwa.com;initial catalog=HRMS;persist security info=True;user id=sa;password=dbqlxpawm;"/>
+    <add key="SMS" value="data source=SIMSz.munhwa.com;initial catalog=SMS;persist security info=True;user id=sa;password=dbqlxpawm;"/>
+    <add key="CTI" value="data source=192.9.214.121;initial catalog=PowerCCS100000;persist security info=True;user id=sa;password=adminpass;"/>
+
+
+    <add key="LoginFlashPath" value=""/>
+    <add key="NoticeWebPagePath" value=""/>
+    <add key="CustomRequestPagePath" value=""/>
+    <add key="HelpPagePath" value="http://simsapp.munhwa.com/help/help.aspx"/>
+    <add key="SMTP" value="192.168.0.0"/>
+    <add key="MasterEmailAddress" value="MailMaster@munhwa.com"/>
+    <add key="ExcelExportPath" value="c:\"/>
+    <add key="AuthorizationCheck" value="True"/>
+    <add key="SystemTitle" value="판매정보관리시스템R(SIMS 2.0)"/>
+    <add key="ShortCutsFileName" value="판매정보관리시스템R(SIMS 2.0)"/>
+    <add key="StatMenuCompayName" value="판매정보관리시스템R(SIMS 2.0)"/>
+    <add key="CtiAppServer" value="192.9.214.121"/>
+    <add key="CtiDbServer" value="192.9.214.121"/>
+    <add key="CTIport1" value=""/>
+    <add key="CTIport2" value=""/>
+    <add key="CTIport1" value=""/>
+    <add key="LogFileDirectory" value="\smartERPLog"/>
+    <add key="ClientSettingsProvider.ServiceUri" value=""/>
+    <add key="Slogan" value="문화일보 판/매/국/"/>
+
+    <add key="ToolbarType" value="1"/>
+    <!-- 툴바타입 '1:상단툴바 , 2:좌측툴바 , 3:우측툴바 -->
+    <add key="HardCopyType" value="1"/>
+    <!-- 1:print, 2:ImageSave  -->
+    <add key="HardCopyPath" value="c:\SMARTERP\IMAGE\"/>
+    <!-- c:\SMARTERP\IMAGE\  -->
+
+  </appSettings>
+
+
+  <system.serviceModel>
+    <bindings>
+      <wsHttpBinding>
+        <binding name="WsHttpBinding_IService" maxReceivedMessageSize="2147483647" messageEncoding="Mtom">
+          <security mode="Transport">
+            <transport clientCredentialType="None"/>
+          </security>
+        </binding>
+      </wsHttpBinding>
+    </bindings>
+    <client>
+      <endpoint address="https://221.151.93.228/WCFDataCaller/Service.svc" binding="wsHttpBinding" bindingConfiguration="WsHttpBinding_IService" contract="WCFData.IService" name="WsHttpBinding_IService">
+        <identity>
+          <servicePrincipalName value="host/smartERP"/>
+        </identity>
+      </endpoint>
+    </client>
+  </system.serviceModel>
+  <system.web>
+    <compilation debug="true" strict="false" explicit="true" targetFramework="4.0"/>
+    <membership defaultProvider="ClientAuthenticationMembershipProvider">
+      <providers>
+        <add name="ClientAuthenticationMembershipProvider" type="System.Web.ClientServices.Providers.ClientFormsAuthenticationMembershipProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri=""/>
+      </providers>
+    </membership>
+    <roleManager defaultProvider="ClientRoleProvider" enabled="true">
+      <providers>
+        <add name="ClientRoleProvider" type="System.Web.ClientServices.Providers.ClientRoleProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" cacheTimeout="86400"/>
+      </providers>
+    </roleManager>
+  </system.web>
+</configuration>

@@ -1,0 +1,160 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SMBA01
+</name>
+</assembly>
+<members>
+<member name="P:My.Resources.Resources.ResourceManager">
+	<summary>
+  이 클래스에서 사용하는 캐시된 ResourceManager 인스턴스를 반환합니다.
+</summary>
+</member><member name="P:My.Resources.Resources.Culture">
+	<summary>
+  이 강력한 형식의 리소스 클래스를 사용하여 모든 리소스 조회에 대한 현재 스레드의 CurrentUICulture
+  속성을 재정의합니다.
+</summary>
+</member><member name="T:My.Resources.Resources">
+	<summary>
+  지역화된 문자열 등을 찾기 위한 강력한 형식의 리소스 클래스입니다.
+</summary>
+</member><member name="M:ubiLease.UI.BusinessUi.SM.SMBA01.Initialize">
+	<summary>
+ 함수명 : Initialize
+ 기  능 : 폼 및 그리드 초기화
+ 작성자 : 
+ 작성일 : 2006-08-24
+ 수정자 : 
+ 수정일 : 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ubiLease.UI.BusinessUi.SM.SMBA01.grd_1_Click(System.Object,System.EventArgs)">
+	<summary>
+ 함수명 : grd_1_Click
+ 기  능 : 폼 및 그리드 초기화
+ 작성자 : 
+ 작성일 : 2006-08-24
+ 수정자 : 
+ 수정일 : 
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:ubiLease.UI.BusinessUi.SM.SMBA01.grd1_KeyDownEdit(System.Object,C1.Win.C1FlexGrid.KeyEditEventArgs)">
+	<summary>
+ 함수명 : grd1_KeyDownEdit
+ 기  능 : 그리드의 ENTER키 처리
+ 작성자 : 
+ 작성일 : 2006-08-24
+ 수정자 : 
+ 수정일 : 
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:ubiLease.UI.BusinessUi.SM.SMBA01.grd2_KeyDownEdit(System.Object,C1.Win.C1FlexGrid.KeyEditEventArgs)">
+	<summary>
+ 함수명 : grd2_KeyDownEdit
+ 기  능 : 그리드의 ENTER키 처리
+ 작성자 : 
+ 작성일 : 2006-08-24
+ 수정자 : 
+ 수정일 : 
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:ubiLease.UI.BusinessUi.SM.SMBA01.NewData">
+	<summary>
+ 함수명 : NewData 
+ 기  능 : 신규 
+ 작성자 : 
+ 작성일 : 2006-08-17
+ 수정자 : 
+ 수정일 : 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ubiLease.UI.BusinessUi.SM.SMBA01.RequestData(System.Boolean)">
+	<summary>
+ 함수명 : RequestData
+ 기  능 : 조회
+ 작성자 : 
+ 작성일 : 2006-08-17
+ 수정자 : 
+ 수정일 :         ''' </summary>
+	<param name="AprocessMessage"></param>
+	<remarks></remarks>
+</member><member name="M:ubiLease.UI.BusinessUi.SM.SMBA01.SaveData">
+	<summary>
+ 함수명 : SaveData 
+ 기  능 : 저장
+ 작성자 : 
+ 작성일 : 2006-08-17
+ 수정자 : 
+ 수정일 : 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ubiLease.UI.BusinessUi.SM.SMBA01.DeleteData">
+	<summary>
+ 함수명 : DeleteData 
+ 기  능 : 삭제
+ 작성자 : 
+ 작성일 : 2006-08-17
+ 수정자 : 
+ 수정일 : 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ubiLease.UI.BusinessUi.SM.SMBA01.ExportData">
+	<summary>
+ 함수명 : ExportData 
+ 기  능 : 출력
+ 작성자 : 
+ 작성일 : 2006-08-17
+ 수정자 : 
+ 수정일 : 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ubiLease.UI.BusinessUi.SM.SMBA01.NewData_2">
+	<summary>
+ 함수명 : NewData_2 
+ 기  능 : 신규
+ 작성자 : 
+ 작성일 : 2006-08-17
+ 수정자 : 
+ 수정일 :        ''' </summary>
+	<remarks></remarks>
+</member><member name="M:ubiLease.UI.BusinessUi.SM.SMBA01.RequestData_2(System.Boolean)">
+	<summary>
+ 함수명 : RequestData_2 
+ 기  능 : 조회
+ 작성자 : 
+ 작성일 : 2006-08-17
+ 수정자 : 
+ 수정일 : 
+ </summary>
+	<param name="AprocessMessage"></param>
+	<remarks></remarks>
+</member><member name="M:ubiLease.UI.BusinessUi.SM.SMBA01.SaveData_2">
+	<summary>
+ 함수명 : SaveData_2 
+ 기  능 : 저장
+ 작성자 : 
+ 작성일 : 2006-08-17
+ 수정자 : 
+ 수정일 : 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ubiLease.UI.BusinessUi.SM.SMBA01.DeleteData_2">
+	<summary>
+ 함수명 : DeleteData_2
+ 기  능 : 삭제
+ 작성자 : 
+ 작성일 : 2006-08-17
+ 수정자 : 
+ 수정일 : 
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

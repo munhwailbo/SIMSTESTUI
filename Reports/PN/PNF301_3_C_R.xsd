@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<xs:schema id="XSDSchema2" targetNamespace="http://tempuri.org/XSDSchema2.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XSDSchema2.xsd" xmlns:mstns="http://tempuri.org/XSDSchema2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"> 
+  <xs:element name="Document"> 
+    <xs:complexType> 
+      <xs:choice minOccurs="0" maxOccurs="unbounded"> 
+        <xs:element name="PNF301_3_C_R"> 
+          <xs:complexType> 
+            <xs:sequence> 
+              <xs:element name="Orders" type="xs:decimal" />
+              <xs:element name="YYYY" type="xs:string" />
+              <xs:element name="MM" type="xs:string" />
+              <xs:element name="BranchNm" type="xs:string" />
+              <xs:element name="StRecPaperNum" type="xs:decimal" />
+              <xs:element name="StRetPaperNum" type="xs:decimal" />
+              <xs:element name="StPaperNum" type="xs:decimal" />
+              <xs:element name="ReaderNm" type="xs:string" />
+              <xs:element name="PhoneNum1" type="xs:string" />
+              <xs:element name="NmAddr" type="xs:string" />
+              <xs:element name="StDivDate" type="xs:string" />
+              <xs:element name="StDivBillMM" type="xs:string" />
+              <xs:element name="StopDate" type="xs:string" />
+              <xs:element name="StDivReason" type="xs:string" />
+              <xs:element name="note" type="xs:string" />
+            </xs:sequence> 
+          </xs:complexType> 
+        </xs:element> 
+      </xs:choice> 
+    </xs:complexType> 
+  </xs:element> 
+</xs:schema> 

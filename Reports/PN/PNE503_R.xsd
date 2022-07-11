@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="XSDSchema2" targetNamespace="http://tempuri.org/XSDSchema2.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XSDSchema2.xsd" xmlns:mstns="http://tempuri.org/XSDSchema2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="Document">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PNE503_R">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RowNumber1" type="xs:decimal" />
+              <xs:element name="RowNumber2" type="xs:decimal" />
+              <xs:element name="YYYYMM" type="xs:string" />
+              <xs:element name="YYYY" type="xs:string" />
+              <xs:element name="MM" type="xs:string" />
+              <xs:element name="DisYearMonths" type="xs:string" />
+              <xs:element name="DisYearMM" type="xs:string" />
+              <xs:element name="AdEmployeeNum" type="xs:string" />
+              <xs:element name="AdEmployeeNm" type="xs:string" />
+              <xs:element name="AdEmployeeDeptCd" type="xs:string" />
+              <xs:element name="AdEmployeeDeptNm" type="xs:string" />
+              <xs:element name="FixedStEdDt" type="xs:string" />
+              <xs:element name="ServiceMM" type="xs:string" />
+              <xs:element name="SubscriptionAmt" type="xs:decimal" />
+              <xs:element name="CompanyCd" type="xs:string" />
+              <xs:element name="CompanyNm" type="xs:string" />
+              <xs:element name="BillDivCd" type="xs:string" />
+              <xs:element name="BillDivCdNm" type="xs:string" />
+	      <xs:element name="EmployeeExpNum" type="xs:string" />
+              <xs:element name="ChargeEmpNum" type="xs:string" />
+              <xs:element name="SubscribeCd" type="xs:string" />
+              <xs:element name="SubscriberNm" type="xs:string" />
+              <xs:element name="Addr1" type="xs:string" />
+              <xs:element name="Addr2" type="xs:string" />
+              <xs:element name="MngStopDt" type="xs:string" />
+              <xs:element name="ContactDt" type="xs:string" />
+              <xs:element name="FixedStDt" type="xs:string" />
+              <xs:element name="TransferDt" type="xs:string" />
+              <xs:element name="ChargeEmpNm" type="xs:string" />
+              <xs:element name="BranchNum" type="xs:string" />
+              <xs:element name="BranchNm" type="xs:string" />
+              <xs:element name="NewExpPapNum" type="xs:decimal" />
+              <xs:element name="ReExpPapNum" type="xs:decimal" />
+              <xs:element name="PaperNum" type="xs:decimal" />
+              <xs:element name="GsPaperNum" type="xs:decimal" />
+              <xs:element name="divPaperNum" type="xs:decimal" />	      
+              <xs:element name="divPaperNum2" type="xs:decimal" />	      
+              <xs:element name="Amt" type="xs:decimal" />
+              <xs:element name="DeductAmt" type="xs:decimal" />
+              <xs:element name="TransferAmt" type="xs:decimal" />
+              <xs:element name="ChargeEmpProc" type="xs:string" />
+              <xs:element name="Memo" type="xs:string" />
+              <xs:element name="SortOrders" type="xs:string" />
+              <xs:element name="CollectionYYYYMM" type="xs:string" />
+              <xs:element name="CollYYYYMM" type="xs:string" />
+              <xs:element name="CollectionDivCd" type="xs:string" />
+              <xs:element name="Remark" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

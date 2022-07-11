@@ -1,0 +1,94 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BMB101
+</name>
+</assembly>
+<members>
+<member name="T:My.Resources.Resources">
+<summary>
+  지역화된 문자열 등을 찾기 위한 강력한 형식의 리소스 클래스입니다.
+</summary>
+</member>
+<member name="P:My.Resources.Resources.ResourceManager">
+<summary>
+  이 클래스에서 사용하는 캐시된 ResourceManager 인스턴스를 반환합니다.
+</summary>
+</member>
+<member name="P:My.Resources.Resources.Culture">
+<summary>
+  이 강력한 형식의 리소스 클래스를 사용하여 모든 리소스 조회에 대해 현재 스레드의 CurrentUICulture 속성을
+  재정의합니다.
+</summary>
+</member>
+<member name="M:ubiLease.UI.BusinessUi.BM.BMB101.NewData">
+ <summary>
+ 함수명 : NewData 
+ 기  능 : 신규 
+ 작성자 : 
+ 작성일 : 2008.09.01
+ 수정자 : 
+ 수정일 : 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ubiLease.UI.BusinessUi.BM.BMB101.RequestData(System.Boolean)">
+ <summary>
+ 함수명 : RequestData
+ 기  능 : 조회
+ 작성자 : 
+ 작성일 : 2008.09.01
+ 수정자 : 
+ 수정일 :         ''' </summary>
+ <param name="AprocessMessage"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ubiLease.UI.BusinessUi.BM.BMB101.SaveData">
+ <summary>
+ 함수명 : SaveData 
+ 기  능 : 저장
+ 작성자 : 
+ 작성일 : 2008.09.01
+ 수정자 : 
+ 수정일 : 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ubiLease.UI.BusinessUi.BM.BMB101.DeleteData">
+ <summary>
+ 함수명 : DeleteData 
+ 기  능 : 삭제
+ 작성자 : 
+ 작성일 : 2008.09.01
+ 수정자 : 
+ 수정일 : 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ubiLease.UI.BusinessUi.BM.BMB101.Initialize">
+ <summary>
+ 함수명 : Initialize
+ 기  능 : 폼 및 그리드 초기화
+ 작성자 : 
+ 작성일 : 2008.09.01
+ 수정자 : 
+ 수정일 : 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ubiLease.UI.BusinessUi.BM.BMB101.grd1_KeyDownEdit(System.Object,C1.Win.C1FlexGrid.KeyEditEventArgs)">
+ <summary>
+ 함수명 : grd1_KeyDownEdit
+ 기  능 : 그리드의 ENTER키 처리
+ 작성자 : 
+ 작성일 : 2008.09.01
+ 수정자 : 
+ 수정일 : 
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

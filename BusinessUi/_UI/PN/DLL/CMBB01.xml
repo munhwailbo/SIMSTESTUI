@@ -1,0 +1,99 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PNA205
+</name>
+</assembly>
+<members>
+<member name="M:ubiLease.UI.BusinessUi.AC.PNA205.Initialize">
+	<summary>
+ ?⑥닔紐?: Initialize
+ 由ы꽩媛?: 
+ 湲? ??: ??諛?洹몃━??珥덇린??
+ ?묒꽦??: 
+ ?묒꽦??: 2012-07-19
+ ?섏젙??: 
+ ?섏젙??: 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ubiLease.UI.BusinessUi.AC.PNA205.PNA205_Load(System.Object,System.EventArgs)">
+	<summary>
+ ?⑥닔紐?: PNA205_Load
+ 由ы꽩媛?: 
+ 湲? ??: Dock
+ ?묒꽦??: 
+ ?묒꽦??: 2012-07-19
+ ?섏젙??: 
+ ?섏젙??: 
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="P:My.Resources.Resources.ResourceManager">
+	<summary> 
+  이 클래스에서 사용하는 캐시된 ResourceManager 인스턴스를 반환합니다. 
+</summary>
+</member><member name="P:My.Resources.Resources.Culture">
+	<summary> 
+  이 강력한 형식의 리소스 클래스를 사용하여 모든 리소스 조회에 대한 현재 스레드의 CurrentUICulture 
+  속성을 재정의합니다. 
+</summary>
+</member><member name="T:My.Resources.Resources">
+	<summary> 
+  지역화된 문자열 등을 찾기 위한 강력한 형식의 리소스 클래스입니다. 
+</summary>
+</member><member name="M:ubiLease.UI.BusinessUi.AC.PNA205.NewData">
+	<summary>
+ ?⑥닔紐?: NewData 
+ 湲? ??: ?좉퇋
+ ?묒꽦??: 
+ ?묒꽦??: 2012-07-19
+ ?섏젙??: 
+ ?섏젙??: 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ubiLease.UI.BusinessUi.AC.PNA205.RequestData(System.Boolean)">
+	<summary>
+ ?⑥닔紐?: RequestData 
+ 湲? ??: 洹몃━??議고쉶
+ ?묒꽦??: 
+ ?묒꽦??: 2012-07-19
+ ?섏젙??: 
+ ?섏젙??: 
+ </summary>
+	<param name="AprocessMessage"></param>
+	<remarks></remarks>
+</member><member name="M:ubiLease.UI.BusinessUi.AC.PNA205.SaveData">
+	<summary>
+ ?⑥닔紐?: SaveData 
+ 湲? ??: ???
+ ?묒꽦??: 
+ ?묒꽦??: 2012-07-19
+ ?섏젙??: 
+ ?섏젙??: 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ubiLease.UI.BusinessUi.AC.PNA205.DeleteData">
+	<summary>
+ ?⑥닔紐?: DeleteData 
+ 湲? ??: ??젣
+ ?묒꽦??: 
+ ?묒꽦??: 2012-07-19
+ ?섏젙??: 
+ ?섏젙??: 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ubiLease.UI.BusinessUi.AC.PNA205.ExportData">
+	<summary>
+ ?⑥닔紐?: ExportData 
+ 湲? ??: 誘몃━蹂닿린(異쒕젰)
+ ?묒꽦??: 
+ ?묒꽦??: 2012-07-19
+ ?섏젙??: 
+ ?섏젙??: 
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

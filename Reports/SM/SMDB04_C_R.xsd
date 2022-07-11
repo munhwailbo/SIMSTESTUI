@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://tempuri.org/XMLSchema.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:mstns="http://tempuri.org/XMLSchema.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="Document">
+		<xs:complexType>
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element name="SMDB04_C_R">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="RecordProcessMode" type="xs:int" minOccurs="0" />
+							<xs:element name="RowNum" type="xs:int" minOccurs="0" />
+							<xs:element name="BusinessLogDate" type="xs:string" minOccurs="0" />
+							<xs:element name="Orders" type="xs:int" minOccurs="0" />
+							<xs:element name="CodeName" type="xs:string" minOccurs="0" />
+							<xs:element name="EmployeeNameHangul" type="xs:string" minOccurs="0" />
+							<xs:element name="LogTitle" type="xs:string" minOccurs="0" />
+							<xs:element name="BusinessLogContent" type="xs:string" minOccurs="0" />
+							<xs:element name="ProgressRate" type="xs:int" minOccurs="0" />
+							<xs:element name="WorkTime" type="xs:int" minOccurs="0" />
+							<xs:element name="Remark" type="xs:string" minOccurs="0" />							
+							<xs:element name="BusinessDateFormTo" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

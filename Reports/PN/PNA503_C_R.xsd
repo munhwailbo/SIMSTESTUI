@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="XSDSchema1" targetNamespace="http://tempuri.org/XSDSchema1.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XSDSchema1.xsd" xmlns:mstns="http://tempuri.org/XSDSchema1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="Document">
+		<xs:complexType>
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element name="PNA503_C_R">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ZipSeriesNum" type="xs:string" />
+							<xs:element name="ZipCd" type="xs:string" />
+							<xs:element name="Do" type="xs:string" minOccurs="0" />
+							<xs:element name="City" type="xs:string" minOccurs="0" />
+							<xs:element name="Dong" type="xs:string" minOccurs="0" />
+							<xs:element name="Ri" type="xs:string" minOccurs="0" />
+							<xs:element name="Island" type="xs:string" minOccurs="0" />
+							<xs:element name="San" type="xs:string" minOccurs="0" />
+							<xs:element name="SHouseNumJu" type="xs:string" minOccurs="0" />
+							<xs:element name="SHouseNum1Bu" type="xs:string" minOccurs="0" />
+							<xs:element name="EHouseNumJu" type="xs:string" minOccurs="0" />
+							<xs:element name="EHouseNumBu" type="xs:string" minOccurs="0" />
+							<xs:element name="ApartmentNm" type="xs:string" minOccurs="0" />
+							<xs:element name="ApartmentSDong" type="xs:string" minOccurs="0" />
+							<xs:element name="ApartmentEDong" type="xs:string" minOccurs="0" />
+							<xs:element name="ProcessDt" type="xs:string" minOccurs="0" />
+							<xs:element name="Addr" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="DocumentKey1">
+			<xs:selector xpath=".//mstns:PNA503_C_R" />
+			<xs:field xpath="mstns:ZipSeriesNum" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,126 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CommonFunction
+</name>
+</assembly>
+<members>
+<member name="M:ubiLease.CommonFunction.Common.SetAllBusinessUiInitialValue(System.Object)">
+ <summary>
+ ====================================================================================================
+ 조직코드 컨트롤이있는경우 컨트롤에 조직코드를 배치한다.
+ ====================================================================================================
+ </summary>
+ <param name="AinputUiControl"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ubiLease.CommonFunction.Common.SetDataSetToControls(System.Data.DataSet,System.Object)">
+ <summary>
+ ==================================================================================================== 
+ 받아온 데이터를 컨트롤에 셋팅한다.
+ ==================================================================================================== 
+ </summary>
+ <param name="AinputDataSet"></param>
+ <param name="AinputUiControl"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ubiLease.CommonFunction.Common.GridToExcelFile(System.Object,System.String,System.String,System.Object[])">
+ <summary>
+  공통 함수로 제공하는 엑셀 출력이다.
+  즉 메인 메뉴에서 엑셀을 호출할때 사용한다.
+  그리드 오른 쪽 버튼을 사용하여 엑셀을 호출하는 것은 그리드 내에서 출력하는 별도 함수를 사용한다.
+ </summary>
+ <param name="AmainUi"></param>
+ <param name="ExcelFileName"></param>
+ <param name="SheetName"></param>
+ <param name="SheetObj"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ubiLease.CommonFunction.Common.ExportDataToExcel(System.Object)">
+ <summary>
+ 최초 엑셀 출력 버전
+ </summary>
+ <param name="AmainUi"></param>
+ <remarks></remarks>
+</member>
+<member name="M:ubiLease.CommonFunction.Common.GetPopupRecordset(System.Object,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ <see>
+ 2007.02.15
+ tag에 들어 갈수 있는 조건 :need;read;format(####-#####);code(팝업호출명);where(and C=1);error;
+ 팝업에서는 @AsubCode = '' 파라메터를 추가한다.
+ 추가 규칙 다음 코드가 실행 위치에 따라 자동으로 붙는다. Stored Procedrue 에서는 
+ 다음외에 추가 된 ";"으로 분리하여 사용자 코드를 작성 할수 있도록 추가한다. 
+ pop Control에서 조회는 "popctl"이 맨 앞에 자동으로 추가된다. 추가 정보가 있으면 "popctl;"이 추가된다.
+ pop Form 에서 조회는 "popfrm"이 맨 앞에 자동으로 추가된다. 추가 정보가 있으면 "popfrm;"이 추가된다.
+ pop Grid 에서 조회는 "popgrd"이 맨 앞에 자동으로 추가된다. 추가 정보가 있으면 "popgrd;"이 추가된다.
+ </see>
+ </summary>
+ <param name="AcurrentPop"></param>
+ <param name="AcodeDivisionHangulName"></param>
+ <param name="Acode"></param>
+ <param name="AcodeName"></param>
+ <param name="Awhere"></param>
+ <param name="AreturnKey"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:ubiLease.CommonFunction.Common.DataSetToSendMail(System.Data.DataSet,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.Boolean)">
+ <summary>
+   데이터 셋을 받아서 한번에 전송해보자 우선 맵핑할 컬럼명도 함께 받아보자
+ </summary>
+ <param name="Ds">데이터셋</param>
+ <param name="FromEmailColumnName">보내는이</param>
+ <param name="ToEmailColumnName">받는이</param>
+ <param name="SubjectColumnName">제목</param>
+ <param name="ContentColumnName">내용</param>
+ <param name="SmtpServerColumnIP">서버주소</param>
+ <param name="CcListColumnName">참조목록(;로 구분)</param>
+ <param name="AttachmentColumnName">첨부화일 경로 및 화일명 (;로구분)</param>
+ <param name="DoctypeColumnName">TEXT/HTML</param>
+ <param name="smtp_Sertver_port">수신 포트 지정</param>
+ <param name="LoginID">로그인 아이디</param>
+ <param name="Pass">비밀번호</param>
+ <param name="ssl">보안로그인 설정</param>
+ <remarks></remarks>
+</member>
+<member name="M:ubiLease.CommonFunction.Common.HostServerUrl">
+ <summary>
+ 프로그램 설정 변경을 위한 변수 선언
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:ubiLease.CommonFunction.ubiUtility.ExcelExport.WinTempFolder">
+ <summary>
+ 응용 프로그램 엑셀 출력 폴더 (기본값 : 내문서)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:ubiLease.CommonFunction.ubiUtility.ExcelExport.WinTemplateFolder">
+ <summary>
+ 응용 프로그램 엑셀 템플릿 폴더(기존 화일:)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:ubiLease.CommonFunction.ubiUtility.ExcelExport.WinXSLStyleSheetFolder">
+ <summary>
+ 응용 프로그램 엑셀 스타일쉬트 폴더
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:ubiLease.CommonFunction.ubiUtility.ExcelExport.#ctor">
+ <summary>
+ 생성자
+ </summary>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://tempuri.org/XMLSchema.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:mstns="http://tempuri.org/XMLSchema.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="Document">
+		<xs:complexType>
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element name="PNB102_3_C_R">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="NumOrd" type="xs:decimal" minOccurs="0" />
+							<xs:element name="StandDate" type="xs:string" minOccurs="0" />
+							<xs:element name="ChargeNm" type="xs:string" minOccurs="0" />
+							<xs:element name="OriginChargeNm" type="xs:string" minOccurs="0" />
+							<xs:element name="District" type="xs:string" minOccurs="0" />
+							<xs:element name="BranchNm" type="xs:string" minOccurs="0" />
+							<xs:element name="ExpiredDate" type="xs:string" minOccurs="0" />
+							<xs:element name="ObtainBond" type="xs:string" minOccurs="0" />
+							<xs:element name="DepositAmt" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CollectAmt" type="xs:decimal" minOccurs="0" />
+							<xs:element name="NoCollectAmt" type="xs:decimal" minOccurs="0" />
+							<xs:element name="NoCollectAmt_02" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ExpiredPeriod " type="xs:string" minOccurs="0" />
+							<xs:element name="ObtainPossibility" type="xs:string" minOccurs="0" />
+							<xs:element name="ProcAndPlan" type="xs:string" minOccurs="0" />
+							<xs:element name="SortOrders" type="xs:string" minOccurs="0" />
+							<xs:element name="Note" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

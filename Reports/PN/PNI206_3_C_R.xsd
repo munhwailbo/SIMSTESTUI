@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://tempuri.org/XMLSchema.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:mstns="http://tempuri.org/XMLSchema.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="Document">
+		<xs:complexType>
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element name="PNI206_3_C_R">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="BusinessPlaceCode" type="xs:string" minOccurs="0" />
+							<xs:element name="BranchCode" type="xs:string" minOccurs="0" />
+							<xs:element name="PurchaseSaleDivisionCode" type="xs:string" minOccurs="0" />
+							<xs:element name="ConsumerCorpNm" type="xs:string" minOccurs="0" />
+							<xs:element name="SttOfAccDvsCod" type="xs:string" minOccurs="0" />
+							<xs:element name="Years" type="xs:string" minOccurs="0" />
+							<xs:element name="Volume" type="xs:string" minOccurs="0" />
+							<xs:element name="Number" type="xs:string" minOccurs="0" />
+							<xs:element name="mm" type="xs:string" minOccurs="0" />
+							<xs:element name="dd" type="xs:string" minOccurs="0" />
+							<xs:element name="chg_name" type="xs:string" minOccurs="0" />
+							<xs:element name="Quantity" type="xs:decimal" minOccurs="0" />
+							<xs:element name="UnitCost" type="xs:decimal" minOccurs="0" />
+							<xs:element name="detail_amount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="detail_tax" type="xs:decimal" minOccurs="0" />
+							<xs:element name="detail_remarks" type="xs:string" minOccurs="0" />
+							<xs:element name="TotalAmt" type="xs:decimal" minOccurs="0" />
+							<xs:element name="TotalAmtH" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

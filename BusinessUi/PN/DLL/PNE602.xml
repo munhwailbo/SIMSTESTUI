@@ -1,0 +1,74 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PNE602
+</name>
+</assembly>
+<members>
+<member name="M:ubiLease.UI.BusinessUi.PN.PNE602.NewData">
+	<summary>
+ 함수명 : NewData 
+ 기  능 : 신규 
+ 작성자 : 
+ 작성일 : 2008.09.01
+ 수정자 : 
+ 수정일 : 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ubiLease.UI.BusinessUi.PN.PNE602.RequestData(System.Boolean)">
+	<summary>
+ 함수명 : RequestData
+ 기  능 : 조회
+ 작성자 : 
+ 작성일 : 2008.09.01
+ 수정자 : 
+ 수정일 :         ''' </summary>
+	<param name="AprocessMessage"></param>
+	<remarks></remarks>
+</member><member name="M:ubiLease.UI.BusinessUi.PN.PNE602.SaveData">
+	<summary>
+ 함수명 : SaveData 
+ 기  능 : 저장
+ 작성자 : 
+ 작성일 : 2008.09.01
+ 수정자 : 
+ 수정일 : 
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ubiLease.UI.BusinessUi.PN.PNE602.DeleteData">
+	<summary>
+ 함수명 : DeleteData 
+ 기  능 : 삭제
+ 작성자 : 
+ 작성일 : 2008.09.01
+ 수정자 : 
+ 수정일 : 
+ </summary>
+	<remarks></remarks>
+</member><member name="P:My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:ubiLease.UI.BusinessUi.PN.PNE602.Initialize">
+	<summary>
+ 함수명 : Initialize
+ 기  능 : 폼 및 그리드 초기화
+ 작성자 : 
+ 작성일 : 2008.09.01
+ 수정자 : 
+ 수정일 : 
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

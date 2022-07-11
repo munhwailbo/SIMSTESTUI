@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PAF202_2_C_R" targetNamespace="http://tempuri.org/PAF202_2_C_R.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/PAF202_2_C_R.xsd" xmlns:mstns="http://tempuri.org/PAE009_2_C_R.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="Document">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PAF202_2_C_R">
+          <xs:complexType>
+            <xs:sequence>
+				<xs:element name="BaseYear" type="xs:string" minOccurs="0" />
+				<xs:element name="EmployeeNumber" type="xs:string" />
+				<xs:element name="OfficialWorldCode" type="xs:string" />
+				<xs:element name="Name" type="xs:string" />
+				<xs:element name="ResidentRegistrationNumber" type="xs:string" />
+				<xs:element name="ForeignerYesOrNo" type="xs:string" />
+				<xs:element name="C21" type="xs:string" />
+				<xs:element name="C22" type="xs:string" />
+				<xs:element name="C23" type="xs:string" />
+				<xs:element name="C24" type="xs:string" />
+				<xs:element name="C25" type="xs:string" />
+				<xs:element name="C26" type="xs:string" />
+				<xs:element name="C27" type="xs:string" />
+
+				<xs:element name="C31_1_1" type="xs:decimal" />
+				<xs:element name="C31_1_2" type="xs:decimal" />
+				<xs:element name="C31_2_1" type="xs:decimal" />
+				<xs:element name="C31_2_2" type="xs:decimal" />
+
+				<xs:element name="C32_1" type="xs:decimal" />
+				<xs:element name="C32_2" type="xs:decimal" />
+				<xs:element name="C32_3" type="xs:decimal" />
+				<xs:element name="C32_4" type="xs:decimal" />
+
+				<xs:element name="C33_1_1" type="xs:decimal" />
+				<xs:element name="C33_1_2" type="xs:decimal" />
+				<xs:element name="C33_2_1" type="xs:decimal" />
+				<xs:element name="C33_2_2" type="xs:decimal" />
+				<xs:element name="C33_3_1" type="xs:decimal" />
+				<xs:element name="C33_3_2" type="xs:decimal" />
+				<xs:element name="C35_1_1" type="xs:decimal" />
+				<xs:element name="C35_1_2" type="xs:decimal" />
+				<xs:element name="C35_2_1" type="xs:decimal" />
+				<xs:element name="C35_2_2" type="xs:decimal" />
+
+				<xs:element name="C41_1" type="xs:decimal" />
+				<xs:element name="C41_2" type="xs:decimal" />
+				<xs:element name="C43_1" type="xs:decimal" />
+				<xs:element name="C42_1" type="xs:decimal" />
+				<xs:element name="C42_2" type="xs:decimal" />
+				<xs:element name="C43_2" type="xs:decimal" />
+				<xs:element name="C43_3" type="xs:decimal" />
+				<xs:element name="C44_1" type="xs:decimal" />
+				<xs:element name="C44_2" type="xs:decimal" />
+				<xs:element name="C45_1" type="xs:decimal" />
+				<xs:element name="C45_2" type="xs:decimal" />
+				<xs:element name="C46_1" type="xs:decimal" />
+				<xs:element name="C46_2" type="xs:decimal" />
+				<xs:element name="Count_C21" type="xs:decimal" />
+				<xs:element name="Count_C22" type="xs:decimal" />
+				<xs:element name="Count_C23" type="xs:decimal" />
+				<xs:element name="Count_C24" type="xs:decimal" />
+				<xs:element name="Count_C25" type="xs:decimal" />
+				<xs:element name="Count_C26" type="xs:decimal" />
+				<xs:element name="Count_C27" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<xs:schema id="XSDSchema2" targetNamespace="http://tempuri.org/XSDSchema2.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XSDSchema2.xsd" xmlns:mstns="http://tempuri.org/XSDSchema2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"> 
+  <xs:element name="Document"> 
+    <xs:complexType> 
+      <xs:choice minOccurs="0" maxOccurs="unbounded"> 
+        <xs:element name="PNH103_1_1_C_R"> 
+          <xs:complexType> 
+            <xs:sequence> 
+              <xs:element name="YYYYMMDD" type="xs:string" />
+              <xs:element name="PrintRegion" type="xs:string" />
+              <xs:element name="AreaGubun" type="xs:string" />
+              <xs:element name="BranchNumber" type="xs:decimal" />
+              <xs:element name="Office3" type="xs:decimal" />
+              <xs:element name="Office7" type="xs:decimal" />
+              <xs:element name="Office32" type="xs:decimal" />
+              <xs:element name="GaPan" type="xs:decimal" />
+              <xs:element name="SpePan" type="xs:decimal" />
+              <xs:element name="Mokchon3" type="xs:decimal" />
+              <xs:element name="JuChon3" type="xs:decimal" />
+              <xs:element name="UpDownCnt" type="xs:decimal" />
+              <xs:element name="AreaTotal" type="xs:decimal" />
+            </xs:sequence> 
+          </xs:complexType> 
+        </xs:element> 
+      </xs:choice> 
+    </xs:complexType> 
+  </xs:element> 
+</xs:schema> 

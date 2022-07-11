@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5FC7D4AF-2F13-4831-9F1B-370B6C800373}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>MainUi</AssemblyName>
+    <MyType>Windows</MyType>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>http://localhost/MainUi/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\DLL\</OutputPath>
+    <DocumentationFile>MainUi.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\DLL\</OutputPath>
+    <DocumentationFile>MainUi.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="C1.C1PrintDocument, Version=1.0.20053.287, Culture=neutral, PublicKeyToken=1a6f4158ebe6d3b8" />
+    <Reference Include="C1.Common, Version=1.0.20031.116, Culture=neutral, PublicKeyToken=e272bb32d11b1948" />
+    <Reference Include="C1.Win.C1FlexGrid, Version=2.5.20053.220, Culture=neutral, PublicKeyToken=c9c7ad9c0a5706c9" />
+    <Reference Include="C1.Win.C1FlexGrid.Classic, Version=2.5.20053.220, Culture=neutral, PublicKeyToken=c9c7ad9c0a5706c9" />
+    <Reference Include="C1.Win.C1PrintPreview, Version=1.0.20053.287, Culture=neutral, PublicKeyToken=3af768410ba0a64f" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="02.tree view icon 변경.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="03.Pretty Tab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04.file menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="06-4.CrystalReport Print.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="10.권한관리.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="12.CTI_Loader.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCrystalPrint.Designer.vb">
+      <DependentUpon>frmCrystalPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCrystalPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGridPrintPreview.Designer.vb">
+      <DependentUpon>frmGridPrintPreview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGridPrintPreview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProgress.Designer.vb">
+      <DependentUpon>frmProgress.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmProgress.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="partial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01.최초 실행 및 menu 추가.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="05.etc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="09.main.Designer.vb">
+      <DependentUpon>09.main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="09.main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="06.Export Data.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="06-2.Grid Export Data.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="11.TreeViewContext.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="09.main.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>09.main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCrystalPrint.resx">
+      <DependentUpon>frmCrystalPrint.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGridPrintPreview.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmGridPrintPreview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProgress.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmProgress.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </Content>
+    <None Include="Resources\171352_calculator_icon.png" />
+    <None Include="Resources\285631_notepad_icon.png" />
+    <Content Include="Resources\about_pr_paper.gif" />
+    <None Include="Resources\Main_exit.png" />
+    <None Include="Resources\List_screen_up.png" />
+    <None Include="Resources\Close_screen_up.png" />
+    <None Include="Resources\right_bg.png" />
+    <None Include="Resources\Close_screen.png" />
+    <None Include="Resources\List_screen.png" />
+    <None Include="Resources\my-documents-32x32.png" />
+    <None Include="Resources\x-32x32.png" />
+    <None Include="Resources\save-32x32.png" />
+    <None Include="Resources\preview-32x32.png" />
+    <None Include="Resources\open-32x32.png" />
+    <None Include="Resources\new-32x32.png" />
+    <None Include="Resources\help-32x32.png" />
+    <None Include="Resources\delete-32x32.png" />
+    <None Include="Resources\저장.gif" />
+    <None Include="Resources\인쇄.gif" />
+    <None Include="Resources\엑셀.gif" />
+    <None Include="Resources\신규.gif" />
+    <None Include="Resources\삭제.gif" />
+    <None Include="Resources\미리보기.gif" />
+    <None Include="Resources\도움말.gif" />
+    <None Include="Resources\폴더열기.gif" />
+    <None Include="Resources\닫기.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\FW20\CommonControls\CommonControls.vbproj">
+      <Project>{28A2CD3A-26F2-46A4-9763-767C3F7F73BE}</Project>
+      <Name>CommonControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\FW20\CommonFunction\CommonFunction.vbproj">
+      <Project>{F311BD6E-88FB-4D6A-ABC6-66E17C55693D}</Project>
+      <Name>CommonFunction</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\FW20\DAT\DAT.csproj">
+      <Project>{816F0B52-C3FC-4C3E-A536-333969989906}</Project>
+      <Name>DAT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\FW20\GridControl\GridControl.vbproj">
+      <Project>{D238FF1C-C993-4455-9CF6-88429BC1F9FF}</Project>
+      <Name>GridControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\FW20\Alarm\Alarm.csproj">
+      <Project>{C82A92E1-0FC8-4F4E-B4A2-CCE7C0ABE0AF}</Project>
+      <Name>Alarm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\FW20\CTITrans\CTITrans.csproj">
+      <Project>{0D4EC23F-ACCC-4146-BBED-DDE37AFA589E}</Project>
+      <Name>CTITrans</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

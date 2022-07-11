@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<xs:schema id="XSDSchema2" targetNamespace="http://tempuri.org/XSDSchema2.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XSDSchema2.xsd" xmlns:mstns="http://tempuri.org/XSDSchema2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"> 
+  <xs:element name="Document"> 
+    <xs:complexType> 
+      <xs:choice minOccurs="0" maxOccurs="unbounded"> 
+        <xs:element name="PNB301_2_C_R"> 
+          <xs:complexType> 
+            <xs:sequence> 
+              <xs:element name="BranchNm" type="xs:string" />
+              <xs:element name="BranchCd" type="xs:string" />
+              <xs:element name="ContractDt" type="xs:string" />
+              <xs:element name="A5YYYYMM" type="xs:string" />
+              <xs:element name="A5DeliveryPaperNum" type="xs:decimal" />
+              <xs:element name="A5ValPaperNum" type="xs:decimal" />
+              <xs:element name="A5ValPaperNum3" type="xs:decimal" />
+              <xs:element name="A5AM7PaperNum" type="xs:decimal" />
+              <xs:element name="A5BranchExpandPaperNum" type="xs:decimal" />
+              <xs:element name="A5ExpPaperNum" type="xs:decimal" />
+              <xs:element name="A5RemarkPaperNum" type="xs:decimal" />
+              <xs:element name="A5TotExpPaperNum" type="xs:decimal" />
+              <xs:element name="A5StopBranchPaperNum" type="xs:decimal" />
+              <xs:element name="A5StopPaperNum" type="xs:decimal" />
+              <xs:element name="A5RemarkStopPaperNum" type="xs:decimal" />
+              <xs:element name="A5TotStopPaperNum" type="xs:decimal" />
+              <xs:element name="A5DivCd2" type="xs:decimal" />
+              <xs:element name="A5DivCdD" type="xs:decimal" />
+              <xs:element name="A5DivCd4" type="xs:decimal" />
+              <xs:element name="A5DivCdPaymentAmt" type="xs:decimal" />
+              <xs:element name="A5DivCdRemark" type="xs:decimal" />
+              <xs:element name="A5TotDivCd" type="xs:decimal" />
+              <xs:element name="A5CollectionDivCd1" type="xs:decimal" />
+              <xs:element name="A5CollectionDivCd2" type="xs:decimal" />
+              <xs:element name="A5Coupon" type="xs:decimal" />
+              <xs:element name="A5TotPaperNum" type="xs:decimal" />
+              <xs:element name="A5SalesAmt" type="xs:decimal" />
+              <xs:element name="A5DeductAmt" type="xs:decimal" />
+              <xs:element name="A5UnColAmt" type="xs:decimal" />
+              <xs:element name="A5leaflet" type="xs:decimal" />
+            </xs:sequence> 
+          </xs:complexType> 
+        </xs:element> 
+      </xs:choice> 
+    </xs:complexType> 
+  </xs:element> 
+</xs:schema> 

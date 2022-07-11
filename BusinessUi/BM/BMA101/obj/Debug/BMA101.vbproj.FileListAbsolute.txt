@@ -1,0 +1,13 @@
+D:\SIMS_TEST\UI\BusinessUi\BM\DLL\BMA101.dll.config
+D:\SIMS_TEST\UI\BusinessUi\BM\DLL\BMA101.dll
+D:\SIMS_TEST\UI\BusinessUi\BM\DLL\BMA101.pdb
+D:\SIMS_TEST\UI\BusinessUi\BM\DLL\BMA101.xml
+D:\SIMS_TEST\UI\BusinessUi\BM\BMA101\obj\Debug\BMA101.vbproj.AssemblyReference.cache
+D:\SIMS_TEST\UI\BusinessUi\BM\BMA101\obj\Debug\ubiLease.UI.BusinessUi.BM.BMA101.resources
+D:\SIMS_TEST\UI\BusinessUi\BM\BMA101\obj\Debug\Resources.resources
+D:\SIMS_TEST\UI\BusinessUi\BM\BMA101\obj\Debug\BMA101.vbproj.GenerateResource.cache
+D:\SIMS_TEST\UI\BusinessUi\BM\BMA101\obj\Debug\BMA101.vbproj.CoreCompileInputs.cache
+D:\SIMS_TEST\UI\BusinessUi\BM\BMA101\obj\Debug\BMA101.vbproj.CopyComplete
+D:\SIMS_TEST\UI\BusinessUi\BM\BMA101\obj\Debug\BMA101.dll
+D:\SIMS_TEST\UI\BusinessUi\BM\BMA101\obj\Debug\BMA101.xml
+D:\SIMS_TEST\UI\BusinessUi\BM\BMA101\obj\Debug\BMA101.pdb

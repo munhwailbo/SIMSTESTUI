@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://tempuri.org/XMLSchema.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:mstns="http://tempuri.org/XMLSchema.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="Document">
+		<xs:complexType>
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element name="PNI206_1_C_R">
+					<xs:complexType>
+						<xs:sequence>
+						  <xs:element name="SeriesNum" type="xs:string" minOccurs="0" />
+							<xs:element name="BusinessPlaceCode" type="xs:string" minOccurs="0" />
+							<xs:element name="BranchCode" type="xs:string" minOccurs="0" />
+							<xs:element name="PurchaseSaleDivisionCode" type="xs:string" minOccurs="0" />
+							<xs:element name="SttOfAccDvsCod" type="xs:string" minOccurs="0" />
+							<xs:element name="Years" type="xs:string" minOccurs="0" />
+							<xs:element name="Volume" type="xs:string" minOccurs="0" />
+							<xs:element name="Number" type="xs:string" minOccurs="0" />
+							<xs:element name="supplier_reg_no" type="xs:string" minOccurs="0" />
+							<xs:element name="supplier_name" type="xs:string" minOccurs="0" />
+							<xs:element name="supplier_president" type="xs:string" minOccurs="0" />
+							<xs:element name="supplier_addr" type="xs:string" minOccurs="0" />
+							<xs:element name="supplier_business" type="xs:string" minOccurs="0" />
+							<xs:element name="supplier_item" type="xs:string" minOccurs="0" />
+							<xs:element name="supplied_reg_no" type="xs:string" minOccurs="0" />
+							<xs:element name="supplied_name" type="xs:string" minOccurs="0" />
+							<xs:element name="supplied_president" type="xs:string" minOccurs="0" />
+							<xs:element name="supplied_addr" type="xs:string" minOccurs="0" />
+							<xs:element name="supplied_business" type="xs:string" minOccurs="0" />
+							<xs:element name="supplied_item" type="xs:string" minOccurs="0" />
+							<xs:element name="issue_date" type="xs:string" minOccurs="0" />
+							<xs:element name="blankCnt" type="xs:int" minOccurs="0" />
+							<xs:element name="bef_amount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="tax_amount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="tax_tot_amount" type="xs:decimal" minOccurs="0" />
+							<xs:element name="receipt_gubun" type="xs:string" minOccurs="0" />
+							<xs:element name="main_remarks" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

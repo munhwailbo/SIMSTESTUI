@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<xs:schema id="XSDSchema2" targetNamespace="http://tempuri.org/XSDSchema2.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XSDSchema2.xsd" xmlns:mstns="http://tempuri.org/XSDSchema2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"> 
+  <xs:element name="Document"> 
+    <xs:complexType> 
+      <xs:choice minOccurs="0" maxOccurs="unbounded"> 
+        <xs:element name="PNE103_2_C_R"> 
+          <xs:complexType> 
+            <xs:sequence> 
+              <xs:element name="YYYY" type="xs:string" />
+              <xs:element name="DeptCd" type="xs:string" />
+              <xs:element name="DeptNm1" type="xs:string" />
+              <xs:element name="EmpNum" type="xs:string" />
+              <xs:element name="EmpNm" type="xs:string" />
+              <xs:element name="JanExpPapNum" type="xs:decimal" />
+              <xs:element name="FebExpPapNum" type="xs:decimal" />
+              <xs:element name="MarExpPapNum" type="xs:decimal" />
+              <xs:element name="AprExpPapNum" type="xs:decimal" />
+              <xs:element name="MayExpPapNum" type="xs:decimal" />
+              <xs:element name="JunExpPapNum" type="xs:decimal" />
+              <xs:element name="HalfEmpPapSum1" type="xs:decimal" />
+              <xs:element name="JulExpPapNum" type="xs:decimal" />
+              <xs:element name="AugExpPapNum" type="xs:decimal" />
+              <xs:element name="SepExpPapNum" type="xs:decimal" />
+              <xs:element name="OctExpPapNum" type="xs:decimal" />
+              <xs:element name="NovExpPapNum" type="xs:decimal" />
+              <xs:element name="DecExpPapNum" type="xs:decimal" />
+              <xs:element name="HalfEmpPapSum2" type="xs:decimal" />
+              <xs:element name="JanReExpPapNum" type="xs:decimal" />
+              <xs:element name="FebReExpPapNum" type="xs:decimal" />
+              <xs:element name="MarReExpPapNum" type="xs:decimal" />
+              <xs:element name="AprReExpPapNum" type="xs:decimal" />
+              <xs:element name="MayReExpPapNum" type="xs:decimal" />
+              <xs:element name="JunReExpPapNum" type="xs:decimal" />
+              <xs:element name="Half1ReExpPapNum" type="xs:decimal" />
+              <xs:element name="JulReExpPapNum" type="xs:decimal" />
+              <xs:element name="AugReExpPapNum" type="xs:decimal" />
+              <xs:element name="SepReExpPapNum" type="xs:decimal" />
+              <xs:element name="OctReExpPapNum" type="xs:decimal" />
+              <xs:element name="NovReExpPapNum" type="xs:decimal" />
+              <xs:element name="DecReExpPapNum" type="xs:decimal" />
+              <xs:element name="Half2ReExpPapNum" type="xs:decimal" />
+              <xs:element name="JanNewExpPapNum" type="xs:decimal" />
+              <xs:element name="FebNewExpPapNum" type="xs:decimal" />
+              <xs:element name="MarNewExpPapNum" type="xs:decimal" />
+              <xs:element name="AprNewExpPapNum" type="xs:decimal" />
+              <xs:element name="MayNewExpPapNum" type="xs:decimal" />
+              <xs:element name="JunNewExpPapNum" type="xs:decimal" />
+              <xs:element name="Half1NewExpPapNum" type="xs:decimal" />
+              <xs:element name="JulNewExpPapNum" type="xs:decimal" />
+              <xs:element name="AugNewExpPapNum" type="xs:decimal" />
+              <xs:element name="SepNewExpPapNum" type="xs:decimal" />
+              <xs:element name="OctNewExpPapNum" type="xs:decimal" />
+              <xs:element name="NovNewExpPapNum" type="xs:decimal" />
+              <xs:element name="DecNewExpPapNum" type="xs:decimal" />
+              <xs:element name="Half2NewExpPapNum" type="xs:decimal" />
+              <xs:element name="TotNewPaper" type="xs:decimal" />
+              <xs:element name="TotRePaper" type="xs:decimal" />
+              <xs:element name="TotSumPaper" type="xs:decimal" />
+              <xs:element name="Note" type="xs:string" />
+            </xs:sequence> 
+          </xs:complexType> 
+        </xs:element> 
+      </xs:choice> 
+    </xs:complexType> 
+  </xs:element> 
+</xs:schema> 

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PNE103
+</name>
+</assembly>
+<members>
+<member name="T:My.Resources.Resources">
+<summary>
+  지역화된 문자열 등을 찾기 위한 강력한 형식의 리소스 클래스입니다.
+</summary>
+</member>
+<member name="P:My.Resources.Resources.ResourceManager">
+<summary>
+  이 클래스에서 사용하는 캐시된 ResourceManager 인스턴스를 반환합니다.
+</summary>
+</member>
+<member name="P:My.Resources.Resources.Culture">
+<summary>
+  이 강력한 형식의 리소스 클래스를 사용하여 모든 리소스 조회에 대해 현재 스레드의 CurrentUICulture 속성을
+  재정의합니다.
+</summary>
+</member>
+<member name="M:ubiLease.UI.BusinessUi.PN.PNE103.ExportData">
+ <summary>
+ 함수명 : ExportData 
+ 기  능 : 출력
+ 작성자 : 
+ 작성일 : 2008.09.01
+ 수정자 : 
+ 수정일 : 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ubiLease.UI.BusinessUi.PN.PNE103.btnApprovalAll_Click(System.Object,System.EventArgs)">
+ <summary>
+ 함수명 : btnApprovalAll_Click 
+ 기  능 : 일괄 승인
+ 작성자 : 
+ 작성일 : 
+ 수정자 : 
+ 수정일 : 
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+</members>
+</doc>
