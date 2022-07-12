@@ -1,0 +1,14 @@
+D:\SIMS_TEST\UI\BusinessUi\PN\DLL\PNE601.dll.config
+D:\SIMS_TEST\UI\BusinessUi\PN\DLL\PNE601.dll
+D:\SIMS_TEST\UI\BusinessUi\PN\DLL\PNE601.pdb
+D:\SIMS_TEST\UI\BusinessUi\PN\DLL\PNE601.xml
+D:\SIMS_TEST\UI\BusinessUi\PN\PNE601\obj\Debug\PNE601.vbproj.AssemblyReference.cache
+D:\SIMS_TEST\UI\BusinessUi\PN\PNE601\obj\Debug\PNE601.vbproj.ResolveComReference.cache
+D:\SIMS_TEST\UI\BusinessUi\PN\PNE601\obj\Debug\ubiLease.UI.BusinessUi.PN.PNE601.resources
+D:\SIMS_TEST\UI\BusinessUi\PN\PNE601\obj\Debug\Resources.resources
+D:\SIMS_TEST\UI\BusinessUi\PN\PNE601\obj\Debug\PNE601.vbproj.GenerateResource.cache
+D:\SIMS_TEST\UI\BusinessUi\PN\PNE601\obj\Debug\PNE601.vbproj.CoreCompileInputs.cache
+D:\SIMS_TEST\UI\BusinessUi\PN\PNE601\obj\Debug\PNE601.vbproj.CopyComplete
+D:\SIMS_TEST\UI\BusinessUi\PN\PNE601\obj\Debug\PNE601.dll
+D:\SIMS_TEST\UI\BusinessUi\PN\PNE601\obj\Debug\PNE601.xml
+D:\SIMS_TEST\UI\BusinessUi\PN\PNE601\obj\Debug\PNE601.pdb

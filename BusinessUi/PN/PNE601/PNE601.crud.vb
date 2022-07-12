@@ -176,6 +176,13 @@ Namespace ubiLease.UI.BusinessUi.PN
         ''' <remarks></remarks>
         Public Sub ExportData()
 
+            Dim AsqlParameters() As SqlParameter = Nothing
+            Dim AformulaParameters() As SqlParameter = Nothing
+
+            With GmainCommonFunction
+                .SetSqlParameter(AsqlParameters, "@AExpandDt", Me.dtpExpandDt.TextValue)
+                .SetExportCrystalDataParameter("PNE601.rpt", "PNE601_4_C_R", "", AsqlParameters, AformulaParameters)
+            End With
         End Sub
 
         Private Sub SetSubTotal()
