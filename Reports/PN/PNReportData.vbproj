@@ -166,10 +166,6 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>PNE503_2_C_R.vb</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="PNE601.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>PNE601.vb</LastGenOutput>
-    </EmbeddedResource>
     <EmbeddedResource Include="PNF101_2_C_R.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>PNF101_2_C_R.vb</LastGenOutput>
@@ -459,12 +455,6 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>PNE503_2_C_R.rpt</DependentUpon>
-    </Compile>
-    <Compile Include="PNE601.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>PNE601.rpt</DependentUpon>
-      <SubType>Component</SubType>
     </Compile>
     <Compile Include="PNF101_2_C_R.vb">
       <AutoGen>True</AutoGen>
