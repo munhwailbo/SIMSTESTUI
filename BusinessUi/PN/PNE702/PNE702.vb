@@ -35,12 +35,14 @@ Namespace ubiLease.UI.BusinessUi.SM
             '화면 명칭; key 명칭; 넓이; format; 정렬(l - flexAlignLeftCenter, c - flexAlignCenterCenter, r - flexAlignRightCenter);
             '& input outup(i - input, o - output, io - input output); 필수 입력(y - yes, n - no); 숨기기 (y - yes, n - no); 최대 문자 길이; popup code
             gridAttributes = gridAttributes & "||선택;선택;40;;l;" & "i;n;n;"
-            gridAttributes = gridAttributes & "|사원확장 광고 구분;AdDivision;100;;l;" & "io;y;n;5;"
+            gridAttributes = gridAttributes & "|사원확장 광고 구분;AdDivision;130;;l;" & "io;y;n;5;"
             gridAttributes = gridAttributes & "|바스켓 번호;BasketCd;50;;c;" & "io;y;n;5;"
             gridAttributes = gridAttributes & "|바스켓 이름;BasketHangulNm;100;;l;" & "io;y;n;5;"
-            gridAttributes = gridAttributes & "|신규;NewSum;50;;r;" & "io;y;n;5;"
-            gridAttributes = gridAttributes & "|재접수;ReSum;50;;r;" & "io;y;n;5;"
-            gridAttributes = gridAttributes & "|;Dummy;200;;l;" & "o;n;n;5;"
+            gridAttributes = gridAttributes & "|신규 부수;NewSum;70;;r;" & "io;y;n;5;"
+            gridAttributes = gridAttributes & "|재접수 부수;ReSum;70;;r;" & "io;y;n;5;"
+            gridAttributes = gridAttributes & "|신규 전환액;NewSumAmt;100;#,###;r;" & "io;y;n;5;"
+            gridAttributes = gridAttributes & "|재접수 전환액;ReSumAmt;100;#,###;r;" & "io;y;n;5;"
+            gridAttributes = gridAttributes & "|;Dummy;50;;l;" & "o;n;n;5;"
 
 
             'grid code combo
