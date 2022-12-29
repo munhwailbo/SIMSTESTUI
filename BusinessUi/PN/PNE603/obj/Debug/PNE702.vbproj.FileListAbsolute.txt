@@ -1,0 +1,13 @@
+D:\SIMS_TEST\UI\BusinessUi\PN\DLL\PNE702.dll.config
+D:\SIMS_TEST\UI\BusinessUi\PN\DLL\PNE702.dll
+D:\SIMS_TEST\UI\BusinessUi\PN\DLL\PNE702.pdb
+D:\SIMS_TEST\UI\BusinessUi\PN\DLL\PNE702.xml
+D:\SIMS_TEST\UI\BusinessUi\PN\PNE702\obj\Debug\PNE702.vbproj.AssemblyReference.cache
+D:\SIMS_TEST\UI\BusinessUi\PN\PNE702\obj\Debug\ubiLease.UI.BusinessUi.SM.PNE702.resources
+D:\SIMS_TEST\UI\BusinessUi\PN\PNE702\obj\Debug\Resources.resources
+D:\SIMS_TEST\UI\BusinessUi\PN\PNE702\obj\Debug\PNE702.vbproj.GenerateResource.cache
+D:\SIMS_TEST\UI\BusinessUi\PN\PNE702\obj\Debug\PNE702.vbproj.CoreCompileInputs.cache
+D:\SIMS_TEST\UI\BusinessUi\PN\PNE702\obj\Debug\PNE702.vbproj.CopyComplete
+D:\SIMS_TEST\UI\BusinessUi\PN\PNE702\obj\Debug\PNE702.dll
+D:\SIMS_TEST\UI\BusinessUi\PN\PNE702\obj\Debug\PNE702.xml
+D:\SIMS_TEST\UI\BusinessUi\PN\PNE702\obj\Debug\PNE702.pdb
