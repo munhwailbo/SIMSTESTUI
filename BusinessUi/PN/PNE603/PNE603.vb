@@ -17,10 +17,10 @@ Imports C1.Win.C1FlexGrid.Classic.C1FlexGridClassic
 
 Namespace ubiLease.UI.BusinessUi.SM
 
-    Public Class PNE702
+    Public Class PNE603
         Inherits CommonControls.UiControl
 
-        Private Sub PNE702_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        Private Sub PNE603_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
             Me.Dock = DockStyle.Fill
         End Sub
 
@@ -35,19 +35,23 @@ Namespace ubiLease.UI.BusinessUi.SM
             '화면 명칭; key 명칭; 넓이; format; 정렬(l - flexAlignLeftCenter, c - flexAlignCenterCenter, r - flexAlignRightCenter);
             '& input outup(i - input, o - output, io - input output); 필수 입력(y - yes, n - no); 숨기기 (y - yes, n - no); 최대 문자 길이; popup code
             gridAttributes = gridAttributes & "||선택;선택;40;;l;" & "i;n;n;"
-            gridAttributes = gridAttributes & "|사원확장 광고 구분;AdDivision;130;;l;" & "io;y;n;5;"
-            gridAttributes = gridAttributes & "|바스켓 번호;BasketCd;50;;c;" & "io;y;n;5;"
-            gridAttributes = gridAttributes & "|바스켓 이름;BasketHangulNm;100;;l;" & "io;y;n;5;"
-            gridAttributes = gridAttributes & "|신규 부수;NewSum;70;;r;" & "io;y;n;5;"
-            gridAttributes = gridAttributes & "|재접수 부수;ReSum;70;;r;" & "io;y;n;5;"
-            gridAttributes = gridAttributes & "|신규 전환액;NewSumAmt;100;#,###;r;" & "io;y;n;5;"
-            gridAttributes = gridAttributes & "|재접수 전환액;ReSumAmt;100;#,###;r;" & "io;y;n;5;"
-            gridAttributes = gridAttributes & "|;Dummy;50;;l;" & "o;n;n;5;"d
+            gridAttributes = gridAttributes & "|접수일자;ExpandDt;90;;l;" & "io;y;n;5;"
+            gridAttributes = gridAttributes & "|거래처;EmployeeExpName;140;;c;" & "io;y;n;5;"
+            gridAttributes = gridAttributes & "|분류;Div;50;;c;" & "io;y;n;5;"
+            gridAttributes = gridAttributes & "|부수;SumExpPapNum;50;;r;" & "io;y;n;5;"
+            gridAttributes = gridAttributes & "|금액;ChangeAmount;110;#,###;r;" & "io;y;n;5;"
+            gridAttributes = gridAttributes & "|대행율;AgencyPercent;60;;c;" & "io;y;n;5;"
+            gridAttributes = gridAttributes & "|판매전환;AdAmount;110;#,###;r;" & "io;y;n;5;"
+            gridAttributes = gridAttributes & "|기장일자;RecDate;100;;c;" & "io;n;y;5;"
+            gridAttributes = gridAttributes & "|분류;AdDivision;100;;c;" & "io;y;n;5;"
+            gridAttributes = gridAttributes & "|게재일자;PbDate;100;;c;" & "io;n;y;5;"
+            gridAttributes = gridAttributes & "|부서;SoliDeptName;100;;c;" & "io;y;n;5;"
+            gridAttributes = gridAttributes & "|;Dummy;50;;l;" & "o;n;n;5;"
 
 
             'grid code combo
             Dim gridCodeNameList As String = ""
-            gridCodeNameList = gridCodeNameList & "AdDivision;사원확장 광고 구분"
+            'gridCodeNameList = gridCodeNameList & "AdDivision;사원확장 광고 구분"
 
             grd_1.Initialize(gridAttributes, gridCodeNameList)
             grd_1.ExplorerBar = 3
@@ -64,7 +68,9 @@ Namespace ubiLease.UI.BusinessUi.SM
             End With
         End Sub
 
-
+        Private Sub btnBasketPrint_Click(sender As Object, e As EventArgs) Handles btnBasketPrint.Click
+            Me.ExportExcel(1)
+        End Sub
     End Class
 
 End Namespace

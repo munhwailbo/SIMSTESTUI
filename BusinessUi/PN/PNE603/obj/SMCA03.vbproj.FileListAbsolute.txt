@@ -1,0 +1,11 @@
+D:\ubiLease\Framework\UI\BusinessUi\SM\DLL\SMCA03.dll.config
+D:\ubiLease\Framework\UI\BusinessUi\SM\DLL\SMCA03.dll
+D:\ubiLease\Framework\UI\BusinessUi\SM\DLL\SMCA03.pdb
+D:\ubiLease\Framework\UI\BusinessUi\SM\DLL\SMCA03.xml
+D:\ubiLease\Framework\UI\BusinessUi\SM\SMCA03\obj\Release\ResolveAssemblyReference.cache
+D:\ubiLease\Framework\UI\BusinessUi\SM\SMCA03\obj\Release\ubiLease.UI.BusinessUi.SM.SMCA03.resources
+D:\ubiLease\Framework\UI\BusinessUi\SM\SMCA03\obj\Release\Resources.resources
+D:\ubiLease\Framework\UI\BusinessUi\SM\SMCA03\obj\Release\SMCA03.vbproj.GenerateResource.Cache
+D:\ubiLease\Framework\UI\BusinessUi\SM\SMCA03\obj\Release\SMCA03.dll
+D:\ubiLease\Framework\UI\BusinessUi\SM\SMCA03\obj\Release\SMCA03.xml
+D:\ubiLease\Framework\UI\BusinessUi\SM\SMCA03\obj\Release\SMCA03.pdb

@@ -1,0 +1,13 @@
+D:\MH_TEST\UI\BusinessUi\SM\DLL\SMCA03.dll.config
+D:\MH_TEST\UI\BusinessUi\SM\DLL\SMCA03.dll
+D:\MH_TEST\UI\BusinessUi\SM\DLL\SMCA03.pdb
+D:\MH_TEST\UI\BusinessUi\SM\DLL\SMCA03.xml
+D:\MH_TEST\UI\BusinessUi\SM\SMCA03\obj\Debug\SMCA03.vbproj.AssemblyReference.cache
+D:\MH_TEST\UI\BusinessUi\SM\SMCA03\obj\Debug\ubiLease.UI.BusinessUi.SM.SMCA03.resources
+D:\MH_TEST\UI\BusinessUi\SM\SMCA03\obj\Debug\Resources.resources
+D:\MH_TEST\UI\BusinessUi\SM\SMCA03\obj\Debug\SMCA03.vbproj.GenerateResource.cache
+D:\MH_TEST\UI\BusinessUi\SM\SMCA03\obj\Debug\SMCA03.vbproj.CoreCompileInputs.cache
+D:\MH_TEST\UI\BusinessUi\SM\SMCA03\obj\Debug\SMCA03.vbproj.CopyComplete
+D:\MH_TEST\UI\BusinessUi\SM\SMCA03\obj\Debug\SMCA03.dll
+D:\MH_TEST\UI\BusinessUi\SM\SMCA03\obj\Debug\SMCA03.xml
+D:\MH_TEST\UI\BusinessUi\SM\SMCA03\obj\Debug\SMCA03.pdb
