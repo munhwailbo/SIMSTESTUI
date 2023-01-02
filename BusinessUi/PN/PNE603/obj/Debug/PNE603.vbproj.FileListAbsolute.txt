@@ -11,3 +11,16 @@ D:\SIMS_TEST - 복사본\UI\BusinessUi\PN\PNE603\obj\Debug\PNE603.vbproj.CopyCom
 D:\SIMS_TEST - 복사본\UI\BusinessUi\PN\PNE603\obj\Debug\PNE603.dll
 D:\SIMS_TEST - 복사본\UI\BusinessUi\PN\PNE603\obj\Debug\PNE603.xml
 D:\SIMS_TEST - 복사본\UI\BusinessUi\PN\PNE603\obj\Debug\PNE603.pdb
+D:\SIMS_TEST\UI\BusinessUi\PN\DLL\PNE603.dll.config
+D:\SIMS_TEST\UI\BusinessUi\PN\DLL\PNE603.dll
+D:\SIMS_TEST\UI\BusinessUi\PN\DLL\PNE603.pdb
+D:\SIMS_TEST\UI\BusinessUi\PN\DLL\PNE603.xml
+D:\SIMS_TEST\UI\BusinessUi\PN\PNE603\obj\Debug\PNE603.vbproj.AssemblyReference.cache
+D:\SIMS_TEST\UI\BusinessUi\PN\PNE603\obj\Debug\ubiLease.UI.BusinessUi.SM.PNE603.resources
+D:\SIMS_TEST\UI\BusinessUi\PN\PNE603\obj\Debug\Resources.resources
+D:\SIMS_TEST\UI\BusinessUi\PN\PNE603\obj\Debug\PNE603.vbproj.GenerateResource.cache
+D:\SIMS_TEST\UI\BusinessUi\PN\PNE603\obj\Debug\PNE603.vbproj.CoreCompileInputs.cache
+D:\SIMS_TEST\UI\BusinessUi\PN\PNE603\obj\Debug\PNE603.vbproj.CopyComplete
+D:\SIMS_TEST\UI\BusinessUi\PN\PNE603\obj\Debug\PNE603.dll
+D:\SIMS_TEST\UI\BusinessUi\PN\PNE603\obj\Debug\PNE603.xml
+D:\SIMS_TEST\UI\BusinessUi\PN\PNE603\obj\Debug\PNE603.pdb

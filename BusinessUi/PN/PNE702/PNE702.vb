@@ -42,8 +42,7 @@ Namespace ubiLease.UI.BusinessUi.SM
             gridAttributes = gridAttributes & "|재접수 부수;ReSum;70;;r;" & "io;y;n;5;"
             gridAttributes = gridAttributes & "|신규 전환액;NewSumAmt;100;#,###;r;" & "io;y;n;5;"
             gridAttributes = gridAttributes & "|재접수 전환액;ReSumAmt;100;#,###;r;" & "io;y;n;5;"
-            gridAttributes = gridAttributes & "|;Dummy;50;;l;" & "o;n;n;5;"d
-
+            gridAttributes = gridAttributes & "|;Dummy;50;;l;" & "o;n;n;5;"
 
             'grid code combo
             Dim gridCodeNameList As String = ""

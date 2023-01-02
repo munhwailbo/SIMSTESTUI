@@ -38,8 +38,13 @@ Namespace ubiLease.UI.BusinessUi.SM
             Me.grd_1.SetDataSet(reciveDataSet)
             reciveDataSet = Nothing
 
+            If Me.grd_1.Rows > Me.grd_1.FixedRows Then
+                SetSubTotal()
+            End If
+
             GmainCommonFunction.SetAllBusinessUiInitialValue(Me)
             If AprocessMessage = True Then GmainCommonFunction.RequestDataMessage(Me)
+
         End Sub
 
         '====================================================================================================
@@ -136,6 +141,30 @@ Namespace ubiLease.UI.BusinessUi.SM
             str = temp.ToString()
             Return str
         End Function
+#End Region
+
+#Region "합계"
+        Private Sub SetSubTotal()
+            With Me.grd_1
+                If .Rows > .FixedRows Then
+
+                    .Subtotal(C1.Win.C1FlexGrid.AggregateEnum.Clear)
+                    .SubtotalPosition = C1.Win.C1FlexGrid.SubtotalPositionEnum.BelowData
+                    .Styles(C1.Win.C1FlexGrid.CellStyleEnum.Subtotal0).BackColor = Color.LightYellow
+                    .Styles(C1.Win.C1FlexGrid.CellStyleEnum.Subtotal0).ForeColor = Color.Blue
+
+
+                    ' '' =============================================================================
+                    '' '' '' 그리드 합계행 추가
+                    ' '' =============================================================================
+                    .Subtotal(C1.Win.C1FlexGrid.AggregateEnum.Sum, -1, -1, .get_ColIndex("SumExpPapNum"), "합  계")
+                    .Subtotal(C1.Win.C1FlexGrid.AggregateEnum.Sum, -1, -1, .get_ColIndex("ChangeAmount"), "합  계")
+                    .Subtotal(C1.Win.C1FlexGrid.AggregateEnum.Sum, -1, -1, .get_ColIndex("AdAmount"), "합  계")
+                    .set_TextMatrix(.Rows - 1, .get_ColIndex("ExpandDt"), "합   계")
+                    Me.grd_1.FrozenRows = .Rows - 1
+                End If
+            End With
+        End Sub
 #End Region
 
     End Class
