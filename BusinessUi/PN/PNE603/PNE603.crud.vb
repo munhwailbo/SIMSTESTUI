@@ -32,6 +32,7 @@ Namespace ubiLease.UI.BusinessUi.SM
             With GmainCommonFunction
                 .SetSqlParameter(GmainsqlParameters, "@AExpandDt", Me.dtpExpandDt.TextValue)
                 .SetSqlParameter(GmainsqlParameters, "@AGubn", 0)
+                .SetSqlParameter(GmainsqlParameters, "@APrintMode", 0)
             End With
 
             Dim reciveDataSet As DataSet = GmainExecuteDbCommand.ExecuteStoredProcedure("PN", "PNE603_R", False, True, GmainsqlParameters)
@@ -68,6 +69,7 @@ Namespace ubiLease.UI.BusinessUi.SM
             GmainsqlParameters = Nothing
             GmainCommonFunction.SetSqlParameter(GmainsqlParameters, "@AExpandDt", Me.dtpExpandDt.TextValue)
             GmainCommonFunction.SetSqlParameter(GmainsqlParameters, "@AGubn", Gubn)
+            GmainCommonFunction.SetSqlParameter(GmainsqlParameters, "@APrintMode", 1)
             reciveDataSet = GmainExecuteDbCommand.ExecuteStoredProcedure("PN", "PNE603_R", False, True, GmainsqlParameters)
 
             If reciveDataSet Is Nothing Then Exit Sub
@@ -81,8 +83,10 @@ Namespace ubiLease.UI.BusinessUi.SM
             Dim xlApp As Object
             Dim xlBook As Object
             Dim xlsheet As Object
-            Dim xlData(reciveDataSet.Tables(0).Rows.Count, reciveDataSet.Tables(0).Columns.Count - 1) As Object
-            'Dim xlData_2(reciveDataSet.Tables(1).Rows.Count, reciveDataSet.Tables(1).Columns.Count - 1) As Object
+            Dim xlData(reciveDataSet.Tables(0).Rows.Count, reciveDataSet.Tables(0).Columns.Count) As Object
+
+            MessageBox.Show(reciveDataSet.Tables(0).Rows.Count)
+            MessageBox.Show(reciveDataSet.Tables(0).Columns.Count)
 
             xlApp = CreateObject("Excel.Application")
             xlApp.DisplayAlerts = False
@@ -113,6 +117,7 @@ Namespace ubiLease.UI.BusinessUi.SM
                 ''3. 양식 감추기
                 Dim hiddenStr = (reciveDataSet.Tables(0).Rows.Count.ToString + 8) & ":" & (37).ToString
                 xlsheet.Rows(hiddenStr).Hidden = True
+                xlsheet.Columns(12).Hidden = True
 
                 '4. 마무리
                 xlsheet.Application.Visible = True
