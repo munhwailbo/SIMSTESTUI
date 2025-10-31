@@ -363,7 +363,7 @@ Namespace ubiLease.UI.BusinessUi.PN
                         oSheet.Range("A" & i + 1 & ":D" & i + 1).Merge()
                         oSheet.Range("A" & i + 1).Font.Bold() = True
                         oSheet.Range("A" & i + 1).Font.Underline() = True
-                        oSheet.Range("A" & i + 1).Font.Size() = 9
+                        oSheet.Range("A" & i + 1).Font.Size() = 11
 
                     ElseIf Strings.Right(ResultDataSet.Tables(0).Rows(i).Item(4).ToString, 1) = "1" Then '부서 타이틀
                         oSheet.Range("A" & i + 1 & ":C" & i + 1).Font.Bold = True
@@ -944,6 +944,8 @@ Namespace ubiLease.UI.BusinessUi.PN
                     oSheet.Range("AT31").Font.Bold() = True
 
                 End If
+
+                oSheet.Rows("25:25").Hidden = True
 
                 '포스트잇 첨부
 
